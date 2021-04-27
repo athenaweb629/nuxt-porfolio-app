@@ -1,0 +1,245 @@
+:root {
+	--orange: #c38870;
+	--blue: #51589c;
+	--green: #449844;
+	--red: #a54848;
+	--yellow: #b1b168;
+	--indigo: #4f46e5
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 32px;
+  outline: none;
+  padding: 6px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  margin-top: 8px;
+  border: 1px solid #3e3e3e;
+  border-radius: 20px;
+}
+
+li a {
+	text-decoration: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #101010;
+  min-width: 90px;
+  box-shadow: 0px 0px 12px 0px rgb(0 0 0);
+  z-index: 1;
+  margin-top: 12px
+}
+
+.dropdown-content a, .dropdown-content button {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 17px;
+  border: 1px solid #4a4a4a;
+  background: #0c0c0c;
+  cursor: pointer;
+	width: 96px
+}
+
+.show {
+  display: block
+}
+
+li img {
+	width: 53.524%;
+	display: inline-block;
+	border: 0px solid #585858;
+	border-top-left-radius: 45px;
+	border-top-right-radius: 45px
+}
+
+svg {
+	vertical-align: bottom
+}
+
+.slide-left-enter-active,
+.slide-left-leave-active,
+.slide-right-enter-active,
+.slide-right-leave-active {
+  transition-duration: 0.35s;
+  transition-property: height, opacity, transform;
+  transition-timing-function: cubic-bezier(0.55, 0, 0.1, 1);
+  overflow: hidden
+}
+
+.slide-left-enter,
+.slide-right-leave-active {
+  opacity: 0;
+  transform: translate(-1.35rem, 0)
+}
+
+.slide-left-leave-active,
+.slide-right-enter {
+  opacity: 0;
+  transform: translate(-1.35rem, 0)
+}
+
+.langselect {
+	font-weight: 500 !important
+}
+
+.fade-enter-active, .fade-leave-active {
+    transition: all .35s ease
+}
+  
+.fade-leave-to,
+.fade-enter {
+    opacity: 0
+}
+
+body {
+	background: rgba(12,12,12);
+	font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif, "Apple Color Emoji", "Noto Color Emoji";
+	color: #c7c7c7;
+	font-size: 18px;
+	margin: 0
+}
+
+h1 {
+	font-weight: 500 !important;
+	font-size: 2.5rem !important
+}
+
+h2 {
+	font-weight: 500;
+	font-size: 1.5rem
+}
+
+p {
+	font-weight: normal;
+  color: #c7c7c7;
+	font-size: 1rem
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+	margin-right: 8px;
+  padding: 0;
+  overflow: hidden
+}
+
+#app {
+  height: 100vh;
+  margin-left: 15px
+}
+
+#content {
+	margin-left: 10px
+}
+
+.c-orange {
+	color: var(--orange)
+}
+
+.c-blue {
+	color: var(--blue)
+}
+
+.c-green {
+	color: var(--green)
+}
+
+.c-red {
+	color: var(--red)
+}
+
+.c-yellow {
+	color: var(--yellow)
+}
+
+.c-indigo {
+	color: var(--indigo)
+}
+
+.light {
+	font-weight: light
+}
+.router-link-exact-active.router-link-active {
+	font-weight: 700
+}
+.semi-bold {
+	font-weight: 600
+}
+
+a:hover {
+	text-decoration: none
+}
+
+a {
+	font-weight: 500
+}
+
+li {
+  float: right;
+	font-weight: 500
+}
+
+.contact-icon {
+	width: 130px;
+	height: 125px;
+	float: left;
+	margin-right: 21px;
+	border-radius: 5rem
+}
+
+.border {
+  border-right: 6px solid white;
+  float: left;
+  padding-bottom: 120px;
+  margin-right: 17px
+}
+
+hr {
+  margin: 0 0 0 -20px !important;
+	border-color: #4a4a4a
+}
+
+#topbar {
+	margin-top: 4px
+}
+
+li {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 450;
+  opacity: 0.8;
+  transition: opacity 0.2s ease-in-out
+}
+li:hover {
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out
+}
+
+h3 {
+	font-weight: 400
+}
+
+.text {
+	color: var(--orange);
+	font-size: 32px;
+	text-align: center;
+  padding: 14px 16px;
+  text-decoration: none
+}
