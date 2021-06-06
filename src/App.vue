@@ -1,38 +1,23 @@
 <template>
-	<div id="app">
-		<Topbar/>
-		<transition :name="transitionName" mode="out-in">
-			<router-view/>
-		</transition>
-	</div>
+  <div id="app">
+    <transition :name="transitionName" mode="out-in">
+      <router-view/>
+    </transition>
+  </div>
 </template>
-
 <script>
-import Topbar from "@/components/Topbar.vue";
-const DEFAULT_TRANSITION = 'slide';
-
 export default {
   name: "App",
-	components: {
-		Topbar
-	},
   data() {
     return {
-      prevHeight: 0,
-      transitionName: DEFAULT_TRANSITION,
-			pagename: "aexhell ─ home."
+       prevHeight: 0,
+       transitionName: 'slide'
     };
   },
-	watch: {
-		$route: {
-			immediate: true,
-			handler(to, from) {
-				document.title = to.meta.pagename || 'aexhell ─ home.';
-			}
-		}
-	},
   created() {
     this.$router.beforeEach((to, from, next) => {
+      if (from.fullPath === to.fullPath) return;
+
       let transitionName = to.meta.transitionName || from.meta.transitionName;
 
       if (transitionName === 'slide') {
@@ -41,8 +26,7 @@ export default {
         transitionName = toDepth < fromDepth ? 'slide-right' : 'slide-left';
       }
 
-      this.transitionName = transitionName || DEFAULT_TRANSITION;
-			
+      this.transitionName = transitionName || 'fade';
       next();
     });
   }

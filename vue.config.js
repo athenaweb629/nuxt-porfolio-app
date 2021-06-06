@@ -1,5 +1,5 @@
 module.exports = {
-  devServer: {
-    disableHostCheck: true
-  }
+    pluginOptions: {
+    },
+    transpileDependencies: ['vuex-persist']
 }
