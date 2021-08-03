@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+@import url('./tooltips.css');
+
+html {
+   background: #251621;
+   font-family: "Fira Code Semibold", monospace;
+   color: #D6B9A4
+}
+
+#app-content {
+   display: inline-flex;
+   padding: 3rem;
+}
+
+.pfp {
+   margin-right: 50px;
+   width: 42%;
+   height: 29%;
+}
+
+.aex-info {
+   white-space: pre
+}
+
+.aex-info a {
+   display: block
+}
+
+@media screen and (max-width: 500px) {
+   .pfp {
+      width: 36%;
+      height: 42%
+   }
+   .aex-info {
+      font-size: 8px
+   }
+   .text-xs {
+      font-size: 0.2rem;
+   }
+}
