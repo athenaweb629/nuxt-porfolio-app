@@ -1,0 +1,269 @@
+/** Font **/
+@font-face {
+   font-family: Cyber;
+   src: url("https://assets.codepen.io/605876/Blender-Pro-Bold.otf");
+   font-display: swap
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.slide-left-enter-active,
+.slide-left-leave-active,
+.slide-right-enter-active,
+.slide-right-leave-active {
+  transition-duration: 0.35s;
+  transition-property: height, opacity, transform;
+  transition-timing-function: cubic-bezier(0.55, 0, 0.1, 1);
+  overflow: hidden
+}
+
+.slide-left-enter,
+.slide-right-leave-active {
+  opacity: 0;
+  transform: translate(-1.15rem, 0)
+}
+
+.slide-left-leave-active,
+.slide-right-enter {
+  opacity: 0;
+  transform: translate(-1.15rem, 0)
+}
+
+.fade-enter-active, .fade-leave-active {
+    transition: all .35s ease
+}
+  
+.fade-leave-to,
+.fade-enter {
+    opacity: 0
+}
+
+.theme-dark {
+   --background: #19192b;
+   --color: white;
+   --topbar-background: #161625;
+   --axhl-project: #141827;
+   --project-details: #141827
+}
+
+.theme-light {
+   --background: #19192b;
+   --color: white;
+   --topbar-background: #161625;
+   --axhl-project: #141827;
+   --project-details: #141827
+}
+
+
+html, body {
+   background: #19192b;
+   color: white;
+   font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif, "Apple Color Emoji", "Noto Color Emoji";
+   width: 100%;
+   height: 100%;
+   margin: 0
+}
+
+svg {
+   vertical-align: middle
+}
+
+div#topbar {
+   display: flex;
+   justify-content: flex-start;
+   height: 100%;
+   width: 7%;
+   margin-right: 24px;
+   background: #161625;
+   padding: 28px 22px;
+   flex-direction: column;
+   align-items: center;
+   align-content: center
+}
+
+div#app-mount {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   overflow: hidden
+}
+
+div#app-content {
+   padding: 16px;
+   width: 100%;
+   height: 100%
+}
+
+div.axhl-project-details {
+   font-size: 14px;
+   background: #141827;
+   padding: 4px 20px 10px 20px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   border-top: 1px solid #4e4d85
+}
+ 
+div.axhl-project {
+   width: 22rem;
+   display: flex;
+   height: 272px;
+   flex-direction: column;
+   background: #141827;
+   margin: 25px 0px 25px 25px;
+   border-radius: 12px;
+   background-image: url(https://cdn.discordapp.com/attachments/741052659519193209/874758290612060201/unknown.png);
+   background-repeat: no-repeat;
+   background-position-x: -34px;
+   background-position-y: -242px;
+   background-size: inherit;
+   background-blend-mode: exclusion;
+   justify-content: flex-end;
+   transition: 0.2s ease-in-out all
+}
+
+div.axhl-project:hover {
+   width: 26rem
+}
+ 
+div.projects-container {
+   display: inline-flex;
+   background: #1f2035;
+   width: 95%;
+   height: 330px;
+   border-radius: 12px;
+   justify-content: flex-start;
+   align-items: center
+}
+
+div.axhl-project-details h1.app-header {
+   font-size: 1.7rem;
+   margin-block: 0;
+   border: none;
+   padding-bottom: 6px;
+   width: 100%
+}
+
+div.creepland-project {
+   background-position: center;
+   background-image: url(https://media.discordapp.net/attachments/801270426848329808/864591507742130206/unknown.png?width=960&height=618)
+}
+
+div.moon-project div.axhl-project-details {
+   border-top: 1px solid #4e4d85;
+   transition: 0.2s ease-in-out all
+}
+
+div.creepland-project div.axhl-project-details {
+   border-top: 1px solid #647969;
+   transition: 0.2s ease-in-out all
+}
+
+div.creepland-project a:hover {
+   color: #63c982;
+   opacity: 0.9
+}
+
+div.creepland-project a {
+   color: #67ff9d;
+   text-decoration: none;
+   transition: all 0.2s ease-in-out
+}
+
+span.topbar-header {
+   font-weight: 500;
+   font-size: 1.5rem;
+   margin-bottom: 15px;
+   user-select: none
+}
+
+div.moon-project h1.app-header {
+   color: #9797de;
+}
+
+span.project-position {
+   font-size: 16px;
+   vertical-align: middle;
+   font-weight: 500;
+   color: white
+}
+
+div.topbar-options a:hover {
+   color: #7e7eff
+}
+
+div.topbar-lang {
+   color: #7b7b7b;
+   transition: 0.2s ease-in-out all;
+   cursor: pointer;
+}
+
+div.topbar-lang:hover {
+   color: #7e7eff
+}
+
+div.topbar-icon {
+   margin-bottom: 12px
+}
+
+div.topbar-options a {
+   color: #7b7b7b;
+   transition: 0.2s ease-in-out all;
+   text-decoration: none
+}
+
+img.axhl-about-pfp {
+   border-top-left-radius: 12px;
+   border-bottom-left-radius: 12px;
+   width: 180px;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0
+}
+
+p.axhl-about-description {
+   width: 95%;
+   margin-bottom: 25px
+}
+
+h1.axhl-about-header {
+   font-size: 24px;
+   font-weight: 400
+}
+
+div.axhl-about-details {
+   position: absolute;
+   left: 200px;
+   list-style: circle
+}
+
+div.axhl-about-container {
+   display: flex;
+   height: 200px;
+   background: #212135;
+   width: 95%;
+   border-radius: 12px;
+   position: relative
+}
+
+h1.app-header {
+   font-weight: 400;
+   font-size: 2rem;
+   padding-bottom: 12px;
+   border-bottom: 1px solid #ffffff1f;
+   width: 95%
+}
+
+div.topbar-icon span {
+   margin-left: 5px
+}
+
+div.creepland-project:hover div.axhl-project-details {
+   border-top: 1px solid #68ff8c
+}
+
+div.moon-project:hover div.axhl-project-details {
+   border-top: 1px solid #7c7aff
+}
