@@ -1,24 +1,22 @@
-# aexhell-web-v2
+# aexhell/portfolio
+updated, using Vue with TypeScript.
 
 ## Project setup
 ```
-npm install
+npm install or yarn install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm run dev or yarn run dev
 ```
 
 ### Compiles and minifies for production
 ```
-npm run build
+npm run build or yarn run build
 ```
 
 ### Lints and fixes files
 ```
-npm run lint
+npm run lint or yarn run build
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
