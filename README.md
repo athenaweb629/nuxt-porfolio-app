@@ -3,20 +3,20 @@ updated, using Vue with TypeScript.
 
 ## Project setup
 ```
-npm install or yarn install
+npm i or yarn
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run dev or yarn run dev
+npm run dev or yarn dev
 ```
 
 ### Compiles and minifies for production
 ```
-npm run build or yarn run build
+npm run build or yarn build
 ```
 
 ### Lints and fixes files
 ```
-npm run lint or yarn run build
+npm run lint or yarn build
 ```
