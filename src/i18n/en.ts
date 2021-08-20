@@ -17,7 +17,7 @@ export const en: LocaleMessageObject = {
       },
       about: {
          title: "About me",
-         description: "I live in Spain. There's nothing to read more about me. I'm a front-end developer with some experience on programming. Here I will list some of the top languages that I use everyday."
+         description: "I live in Spain. I'm a front-end developer with some experience on programming. There's nothing to read more about me."
       }
    },
    projects: {
