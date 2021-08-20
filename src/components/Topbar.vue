@@ -47,19 +47,19 @@ export default class Topbar extends Vue {
             localStorage.setItem('lang', "es");
             Vue.set(this.$root.$i18n, 'locale', "es");
             this.$root.$i18n.locale = "es";
-            document.documentElement.setAttribute('lang', "en");
+            document.documentElement.lang = "es";
             break;
          case "es":
             localStorage.setItem('lang', "en");
             Vue.set(this.$root.$i18n, 'locale', "en");
             this.$root.$i18n.locale = "en";
-            document.documentElement.setAttribute('lang', "en");
+            document.documentElement.lang = "en";
             break;
          default:
             localStorage.setItem('lang', "en");
             Vue.set(this.$root.$i18n, 'locale', "en");
-            document.documentElement.setAttribute('lang', "en");
             this.$root.$i18n.locale = "en";
+            document.documentElement.lang = "en";
             break;
       }
    }
