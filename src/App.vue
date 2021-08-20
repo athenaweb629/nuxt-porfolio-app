@@ -23,7 +23,7 @@ export default class Home extends Vue {
   mounted(): any {
     if (this.lang) {
       this.$root.$i18n.locale = this.lang;
-      document.documentElement.setAttribute('lang', this.lang);
+      document.documentElement.lang = this.lang;
     }
   }
   created(): any {
