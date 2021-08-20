@@ -19,7 +19,8 @@ export const es: LocaleMessageObject = {
          }
       },
       about: {
-         title: "Acerca de mí"
+         title: "Acerca de mí",
+         description: "Vivo en España. Soy front-end dev con experiencia en programación. Nada más que decir."
       }
    },
    projects: {
