@@ -20,7 +20,7 @@
          </div>
          <div class="topbar-icon" v-on:click="changeLang">
             <div class="topbar-lang">
-               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 22" fill="none">
+               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                   <g clip-path="url(#clip0)">
                      <path d="M1.41801 15.0156C1.41801 15.0156 8.33833 8.71569 9.77722 4.17959L1.418 4.17959" stroke="currentColor" stroke-linecap="round"/>
                      <path d="M3.58521 6.6564C3.58521 6.6564 4.19645 8.85059 5.75242 10.3716C7.30839 11.8926 10.3964 12.2292 10.3964 12.2292" stroke="currentColor" stroke-linecap="round"/>
@@ -32,7 +32,7 @@
                   </g>
                   <defs>
                      <clipPath id="clip0">
-                        <rect width="24" height="24" fill="white"/>
+                        <rect width="24" height="24" fill="currentColor"/>
                      </clipPath>
                   </defs>
                </svg>
