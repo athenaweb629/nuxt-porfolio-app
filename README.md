@@ -1,22 +1,16 @@
-# aexhell/portfolio
-updated, using Vue with TypeScript.
+# `phb` ── Phoebe
 
-## Project setup
-```
-npm i or yarn
-```
+```bash
+# install dependencies
+$ yarn
 
-### Compiles and hot-reloads for development
-```
-npm run dev or yarn dev
-```
+# serve with hot reload at localhost:3000
+$ yarn dev
 
-### Compiles and minifies for production
-```
-npm run build or yarn build
-```
+# build for production and launch server
+$ yarn build
+$ yarn start
 
-### Lints and fixes files
-```
-npm run lint or yarn build
+# generate static project
+$ yarn generate
 ```
