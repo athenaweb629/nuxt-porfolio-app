@@ -4,7 +4,7 @@
     <div class="mt-2 w-1/2">
       <p class="text-2xl font-400 md:text-xl">what are ya buyin'?</p>
       <div class="phb__works-container flex flex-col gap-2 w-4xl items-stretch mt-4">
-         <div v-for="project in works" :key="project.name" :class="`phb__work-${project.code} bg-grey-2 p-8 rounded-lg flex flex-col w-3xl justify-around`">
+         <div v-for="project in works" v-bind:key="project.name" v-bind:project="project" :class="`phb__work-${project.code} bg-grey-2 p-8 rounded-lg flex flex-col w-3xl justify-around`">
             <h1 class="md:text-xl text-2xl font-600 border-b-2 pb-2" v-html="project.name"></h1>
             <div class="flex flex-row items-end relative">
                <h1 class="md:text-lg text-xl mt-2" v-html="project.position"></h1>
@@ -33,7 +33,7 @@ export default {
                name: 'Moon Chat',
                code: 'moon',
                position: 'Lead Developer',
-               moment: '2020 — PRESENT'
+               moment: '2020 — 2021'
             },
             {
                name: 'CreepLand Inc.',
