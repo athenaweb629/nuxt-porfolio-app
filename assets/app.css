@@ -11,7 +11,15 @@
 }
 
 body {
-   @apply bg-black w-screen h-screen antialiased flex flex-col justify-center text-white;
+  @apply w-screen h-screen antialiased flex flex-col justify-center text-white;
+  position: relative;
+  border-radius: 40px;
+  background-color: #000;
+  background-image: radial-gradient(at top left, #171316, #251e3c42),
+    radial-gradient(at top right, #0a104e, #331518),
+    radial-gradient(at bottom left, #7d4343, #182f42);
+  background-size: 100% 100%;
+  background-repeat: no-repeat
 }
 
 a {
