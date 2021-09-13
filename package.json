@@ -11,7 +11,8 @@
     "lint": " yarn lint:js"
   },
   "repository": {
-    "url": "https://github.com/aexhell/portfolio.git"
+    "url": "https://github.com/aexhell/portfolio.git",
+    "type": "git"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",

@@ -1,7 +1,13 @@
+const _ = {
+  capitalize: (str) => {
+    return str[0] + str.slice(1, str.length)
+  }
+}
+
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - aexhell',
+    titleTemplate: 'aexhell',
     htmlAttrs: {
       lang: 'en'
     },
@@ -11,6 +17,15 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' }
     ]
+  },
+  globalName: 'phoebe',
+  globals: {
+    id: globalName => `__${globalName}`,
+    nuxt: globalName => `$${globalName}`,
+    context: globalName => `__${globalName.toUpperCase()}__`,
+    pluginPrefix: globalName => globalName,
+    readyCallback: globalName => `on${_.capitalize(globalName)}Ready`,
+    loadedCallback: globalName => `_on${_.capitalize(globalName)}Loaded`
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
