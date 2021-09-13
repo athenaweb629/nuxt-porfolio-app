@@ -55,13 +55,25 @@ export default {
     changeLang (lang) {
       switch (lang) {
         case 'en':
+          this.$router.push('/es')
+          document.documentElement.setAttribute('lang', 'es')
+          localStorage.setItem('phb__lang', 'es')
           this.$root.$i18n.locale = 'es'
+          console.log('[i18n] Changed to Spanish')
           break
         case 'es':
+          this.$router.push('/')
+          document.documentElement.setAttribute('lang', 'en')
+          localStorage.setItem('phb__lang', 'en')
           this.$root.$i18n.locale = 'en'
+          console.log('[i18n] Changed to English')
           break
         default:
+          this.$router.push('/')
+          document.documentElement.setAttribute('lang', 'en')
+          localStorage.setItem('phb__lang', 'en')
           this.$root.$i18n.locale = 'en'
+          console.log('[i18n] English initialized')
           break
       }
     }

@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.3s ease-in-out
+}
+
+.page-enter, .page-leave-to {
+  transform: scale(0.95);
+  opacity: 0
+}
+
 body {
    @apply bg-black w-screen h-screen antialiased flex flex-col justify-center text-white;
 }
