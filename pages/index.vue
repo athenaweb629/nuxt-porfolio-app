@@ -1,14 +1,13 @@
 <template>
   <div id="phb__home" class="p-24 flex-col w-screen h-screen flex justify-center items-center">
-    <logo text="So, what's up, lad?" />
+    <logo :text="$t('home.title')" />
     <div class="mt-2 md:mt-6 md:w-1/2 w-full">
       <p class="text-sm text-gray-400 md:text-xl font-400">
-        Welcome to Phoebe UI. More information coming soon.
-        tl;dr: really lazy to give more info, my bad.
+        {{ $t('home.description') }}
       </p>
     </div>
     <Social />
-    <div id="phb__lang" class="absolute top-5 left-5 cursor-not-allowed flex flex-row items-center">
+    <div id="phb__lang" class="absolute top-5 left-5 cursor-pointer flex flex-row items-center" @click="changeLang($i18n.locale)">
       <svg
         class="w-8 h-8"
         xmlns="http://www.w3.org/2000/svg"
@@ -39,17 +38,32 @@
           </clipPath>
         </defs>
       </svg>
-      <!-- <span class="text-sm select-none">ES</span> -->
+      <span class="phb__lang-indicator text-sm select-none uppercase cursor-default">{{ $i18n.locale }}</span>
     </div>
   </div>
 </template>
 
-<script lang="ts">
+<script>
 export default {
   name: 'Index',
   head () {
     return {
       title: 'home'
+    }
+  },
+  methods: {
+    changeLang (lang) {
+      switch (lang) {
+        case 'en':
+          this.$root.$i18n.locale = 'es'
+          break
+        case 'es':
+          this.$root.$i18n.locale = 'en'
+          break
+        default:
+          this.$root.$i18n.locale = 'en'
+          break
+      }
     }
   }
 }

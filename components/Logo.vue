@@ -1,5 +1,7 @@
 <template>
-  <nuxt-link to="/" class="text-white md:text-5xl md:leading-tight select-none text-xl font-700 lowercase phb__header" v-text="text" />
+  <div id="phb__leading" class="md:text-5xl md:leading-tight text-xl select-none">
+    <nuxt-link to="/" class="phb__header text-white font-700 lowercase" v-text="text" />
+  </div>
 </template>
 
 <script lang="ts">
