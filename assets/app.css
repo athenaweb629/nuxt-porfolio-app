@@ -11,15 +11,11 @@
 }
 
 body {
-  @apply w-screen h-screen antialiased flex flex-col justify-center text-white;
-  position: relative;
-  border-radius: 40px;
+  @apply w-screen h-screen antialiased flex flex-col justify-center text-white relative;
   background-color: #000;
-  background-image: radial-gradient(at top left, #171316, #251e3c42),
-    radial-gradient(at top right, #0a104e, #331518),
-    radial-gradient(at bottom left, #7d4343, #182f42);
-  background-size: 100% 100%;
-  background-repeat: no-repeat
+  background-image: radial-gradient(at top left,#3e2437,rgba(37,30,60,.25882)),radial-gradient(at top right,#5a65da61,#33151894),radial-gradient(at bottom left,#7d434370,#415769d6), url(https://www.nawpic.com/media/2020/mountain-nawpic-6-scaled.jpg);
+  background-repeat: no-repeat;
+  background-position-y: 10%
 }
 
 a {
