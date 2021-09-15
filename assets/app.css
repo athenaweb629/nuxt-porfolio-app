@@ -13,7 +13,7 @@
 body {
   @apply w-screen h-screen antialiased flex flex-col justify-center text-white relative;
   background-color: #000;
-  background-image: radial-gradient(at top left,#3e2437,rgba(37,30,60,.25882)),radial-gradient(at top right,#5a65da61,#33151894),radial-gradient(at bottom left,#7d434370,#415769d6), url(https://cdn.discordapp.com/attachments/791752448196214806/887440636897284146/rohit-tandon-9wg5jCEPBsw-unsplash.jpg);
+  background-image: radial-gradient(at top left,#3e2437,rgba(37,30,60,.25882)),radial-gradient(at top right,#5a65da61,#33151894),radial-gradient(at bottom left,#7d434370,#415769d6), url(https://sweetiq.com/wp-content/uploads/2016/11/iStock_97467073_LARGE.jpg);
   background-repeat: no-repeat;
   background-position-y: 90%;
   background-size: cover
