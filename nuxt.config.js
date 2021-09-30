@@ -7,7 +7,7 @@ const _ = {
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: 'aexhell',
+    titleTemplate: 'aex.web',
     htmlAttrs: {
       lang: 'en'
     },
@@ -23,7 +23,7 @@ export default {
       { name: 'og:type', content: 'website' }
     ]
   },
-  globalName: 'phoebe',
+  globalName: 'phobos',
   globals: {
     id: globalName => `__${globalName}`,
     nuxt: globalName => `$${globalName}`,
