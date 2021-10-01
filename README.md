@@ -1,4 +1,4 @@
-# `phb` ── Phoebe
+# `phb` ── Phobos
 
 ```bash
 # install dependencies
