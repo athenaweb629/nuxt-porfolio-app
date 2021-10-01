@@ -63,7 +63,6 @@ export default {
       const lang = localStorage.getItem('phb__lang') || 'en'
 
       this.$root.$i18n.locale = lang
-      this.$router.push(`${lang === 'es' ? '/es' : '/'}`)
     },
     changeLang (lang) {
       switch (lang) {

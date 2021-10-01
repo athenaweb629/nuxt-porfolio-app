@@ -1,6 +1,6 @@
 <template>
-  <div id="phb__leading" class="md:text-4xl md:leading-tight text-2xl select-none">
-    <nuxt-link to="/" class="phb__header text-main font-500 lowercase" v-text="text" />
+  <div id="phb__leading" class="md:text-3xl md:leading-tight text-2xl select-none">
+    <nuxt-link to="/" class="phb__header text-main font-300 lowercase" v-text="text" />
   </div>
 </template>
 
