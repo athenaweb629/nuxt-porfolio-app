@@ -3,13 +3,13 @@ import colors from 'windicss/colors'
 export default {
   theme: {
     fontFamily: {
-      sans: 'B612 Mono, monospace'
+      sans: 'Ubuntu Mono, B612 Mono, monospace'
     },
     colors: {
       white: '#FFFFFF',
       black: '#000000',
       transparent: 'transparent',
-      background: '#201E2E',
+      background: '#1F1D28',
       button: '#2F2F54',
       main: '#A39DD3',
       green: colors.green,

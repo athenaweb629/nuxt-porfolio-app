@@ -1,5 +1,5 @@
 <template>
-  <div id="phb__sky" class="p-24 flex-col w-screen h-screen flex justify-center items-center">
+  <div id="phb__sky" class="flex-col w-screen h-screen flex justify-center items-center">
     <h1 v-if="!playing" id="phb__header" class="text-orange-200 text-xl lowercase mb-4">
       My Sky
     </h1>

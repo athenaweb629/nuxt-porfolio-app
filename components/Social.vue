@@ -1,11 +1,17 @@
 <template>
-  <div id="phb__social" class="mt-2 md:mt-6 flex flex-col items-center">
-    <div class="phb__social-links flex flex-row">
-      <a v-for="media in social" :key="media.code" :href="media.link" :class="`phb__social-${media.code} md:mr-4 mr-2`">
-        <svg class="fill-gray-400 hover:fill-white w-4 md:w-8" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
-          <path :d="media.d" />
-        </svg>
-      </a>
+  <div id="phb__social" class="mt-2 md:mt-4 flex flex-col items-center">
+    <div class="phb__social-links flex flex-col justify-center items-center">
+      <div id="phb__social-col0x1" class="flex flex-row justify-center items-center gap-4">
+        <a v-for="media in social" :key="media.code" :href="media.link ? media.link : '#'" :class="`text-lg phb__social-${media.code}`">
+          {{ media.code }}
+        </a>
+        <span class="phb_-social-discord text-lg text-indigo-300 select-none">aexhell#0469</span>
+      </div>
+      <div id="phb__social-col0x2" class="flex flex-row justify-center items-center">
+        <nuxt-link to="/sky">
+          my lonely sky
+        </nuxt-link>
+      </div>
     </div>
   </div>
 </template>
