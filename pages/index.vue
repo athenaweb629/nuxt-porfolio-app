@@ -1,6 +1,9 @@
 <template>
-  <div id="phb__home" class="flex-col w-screen h-screen flex justify-center items-center">
-    <logo text="aexhell." />
+  <div id="phb__home" class="w-full flex-col flex p-24 rounded-xl">
+    <div class="phb__logo flex flex-row items-center">
+      <logo text="aexhell." />
+    </div>
+    <hr>
     <Social />
   </div>
 </template>

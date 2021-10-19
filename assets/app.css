@@ -16,18 +16,37 @@ body {
    @apply bg-background w-screen h-screen antialiased flex flex-col justify-center text-white;
 }
 
-a.phb__social-twitter {
-  @apply text-red-300
+.phb__social {
+  width: 24px;
+  height: 24px
 }
 
-a.phb__social-github {
-  @apply text-gray-400
+.phb__social:hover {
+  fill: white
 }
 
-a.phb__social-polywork {
-  @apply text-orange-200
+.phb__social-twitter {
+  @apply fill-blue-400
+}
+
+.phb__social-github {
+  @apply fill-gray-400
+}
+
+.phb__social-polywork {
+  @apply fill-orange-300
 }
 
 a {
    @apply text-gray-500 hover:underline
+}
+
+hr {
+  border-color: #6a5cb73b;
+  width: 16rem;
+  margin-block: 1rem
+}
+
+:root {
+  color-scheme: dark;
 }

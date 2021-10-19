@@ -1,5 +1,5 @@
 <template>
-  <div id="phb__mount">
+  <div id="phb__mount" class="w-screen h-screen flex items-center">
     <Nuxt id="phb__content" />
     <!--<<div id="phb__lang" class="absolute top-5 left-5 cursor-pointer flex flex-row items-center" @click="changeLang($i18n.locale)">
       <svg

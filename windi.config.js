@@ -3,13 +3,14 @@ import colors from 'windicss/colors'
 export default {
   theme: {
     fontFamily: {
-      sans: 'Ubuntu Mono, B612 Mono, monospace'
+      sans: 'Inter,"Public Sans",Helvetica,Ubuntu,Arial,sans-serif'
     },
     colors: {
+      colors,
       white: '#FFFFFF',
       black: '#000000',
       transparent: 'transparent',
-      background: '#1F1D28',
+      background: '#1D1B20',
       button: '#2F2F54',
       main: '#A39DD3',
       green: colors.green,
@@ -21,7 +22,7 @@ export default {
       purple: colors.purple,
       bluegray: colors.blueGray,
       grey: {
-        1: '#1C1C25',
+        1: '#201F28',
         2: '#272635',
         3: '#6F73A0'
       }
