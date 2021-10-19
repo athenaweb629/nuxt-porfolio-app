@@ -6,7 +6,6 @@ export default {
       sans: 'Inter,"Public Sans",Helvetica,Ubuntu,Arial,sans-serif'
     },
     colors: {
-      colors,
       white: '#FFFFFF',
       black: '#000000',
       transparent: 'transparent',
