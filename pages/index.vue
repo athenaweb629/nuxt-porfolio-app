@@ -1,10 +1,13 @@
 <template>
-  <div id="phb__home" class="w-full flex-col flex p-24 rounded-xl">
-    <div class="phb__logo flex flex-row items-center">
-      <logo text="aexhell." />
+  <div id="phb__home" class="w-full flex-col flex p-24 rounded-xl justify-center items-center">
+    <div class="phb__container md:w-1/2">
+      <div class="phb__logo flex flex-row">
+        <logo text="aexhell." />
+      </div>
+      <hr>
+      {{ $t('home.description') }}
+      <Social />
     </div>
-    <hr>
-    <Social />
   </div>
 </template>
 

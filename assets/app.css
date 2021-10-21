@@ -25,24 +25,12 @@ body {
   fill: white
 }
 
-.phb__social-twitter {
-  @apply fill-blue-400
-}
-
-.phb__social-github {
-  @apply fill-gray-400
-}
-
-.phb__social-polywork {
-  @apply fill-orange-300
-}
-
 a {
-   @apply text-gray-500 hover:underline
+   @apply text-gray-500 fill-gray-500 hover:underline
 }
 
 hr {
-  border-color: #6a5cb73b;
+  border-color: rgb(104 104 104 / 23%);
   width: 16rem;
   margin-block: 1rem
 }
