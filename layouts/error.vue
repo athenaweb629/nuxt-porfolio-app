@@ -14,15 +14,13 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'Error',
-  layout: 'error',
-  props: {
-    error: {
-      default: '404',
-      type: Error
-    }
+<script lang="ts">
+import { defineComponent } from '@nuxtjs/composition-api'
+
+export default defineComponent({
+  meta: {
+    title: 'Not Found',
+    namespace: 'normal'
   }
-}
+})
 </script>
