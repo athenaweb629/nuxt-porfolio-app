@@ -51,6 +51,9 @@ export default {
     '@nuxt/typescript-build',
     'nuxt-windicss'
   ],
+  generate: {
+    fallback: true
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
