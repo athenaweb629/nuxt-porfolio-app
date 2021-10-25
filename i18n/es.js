@@ -1,5 +1,5 @@
 export default {
   home: {
-    description: 'Ingeniero de software creando experiencias y aplicaciones web. Diseño gráfico y cosas lindas.'
+    description: 'Desarrollador front-end creando experiencias y aplicaciones web. Diseño gráfico y cosas lindas.'
   }
 }
