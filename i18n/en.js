@@ -1,5 +1,5 @@
 export default {
   home: {
-    description: 'Software engineer focused on experiences and web application development. UX design and lovely stuff.'
+    description: 'Front-end developer focused on experiences and web application development. UX design and lovely stuff.'
   }
 }
