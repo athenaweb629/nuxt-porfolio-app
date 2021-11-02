@@ -13,19 +13,12 @@ export default {
       button: '#2D2934',
       btn_hover: '#37333E',
       main: '#A39DD3',
-      green: colors.green,
-      blue: colors.blue,
-      gray: colors.gray,
-      orange: colors.orange,
-      indigo: colors.indigo,
-      red: colors.red,
-      purple: colors.purple,
-      bluegray: colors.blueGray,
       grey: {
         1: '#201F28',
         2: '#272635',
         3: '#6F73A0'
-      }
+      },
+      ...colors
     }
   }
 }

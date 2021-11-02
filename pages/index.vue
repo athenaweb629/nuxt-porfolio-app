@@ -6,6 +6,9 @@
       </div>
       <hr>
       {{ $t('home.description') }}
+      <nuxt-link to="./positions">
+        {{ $t('home.positions') }}
+      </nuxt-link>
       <Social />
     </div>
   </div>

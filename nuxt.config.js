@@ -14,12 +14,12 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'my portfolio babe' },
       { name: 'format-detection', content: 'telephone=no' },
       { name: 'og:title', content: 'aexhell' },
       { name: 'og:site_name', content: 'aexhell.ml' },
       { name: 'theme-color', content: '#343144' },
-      { name: 'og:description', content: 'are you ready for more?' },
+      { name: 'og:description', content: 'my portfolio babe' },
       { name: 'og:type', content: 'website' }
     ]
   },
@@ -61,6 +61,8 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/i18n'
   ],
+
+  // i18n config
   i18n: {
     detectBrowserLanguage: {
       useCookie: true,
@@ -86,6 +88,5 @@ export default {
   axios: {},
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-  }
+  build: {}
 }
