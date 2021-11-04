@@ -6,12 +6,14 @@
       </div>
       <hr>
       <div id="phb__positions" class="flex flex-col p-8 bg-grey-1 rounded-xl gap-4">
-        <div v-for="position of positions" :key="position" :class="`phb__position phb__position-${position.code}`">
+        <div v-for="position of positions" :key="position.code" :class="`phb__position phb__position-${position.code}`">
           <div class="phb__position-title flex flex-row gap-2 items-center">
             <h1 class="text-2xl font-600" v-text="position.name" />
             (<h1 class="text-lg font-400" v-text="`${position.work}`" />)
           </div>
-          <div class="phb__position-details flex flex-row gap-2"><p v-text="position.dates.from" /> ── <p v-text="position.dates.to" /></div>
+          <div class="phb__position-details flex flex-row gap-2">
+            <p v-text="position.dates.from" /> ── <p v-text="position.dates.to" />
+          </div>
         </div>
       </div>
     </div>
