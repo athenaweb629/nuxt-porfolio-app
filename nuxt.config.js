@@ -69,6 +69,7 @@ export default {
       cookieKey: 'i18n_redirected',
       redirectOn: 'root'
     },
+    strategy: 'no_prefix',
     locales: [
       {
         code: 'en',

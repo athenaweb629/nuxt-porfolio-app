@@ -5,6 +5,8 @@ export default {
   },
   positions: {
     title: 'positions.',
+    footer: 'what about ',
+    works: 'works',
     moon: {
       work: 'Senior Developer',
       dates: {
@@ -19,5 +21,9 @@ export default {
         to: 'Present'
       }
     }
+  },
+  works: {
+    title: 'works.',
+    home: 'Return to Index.'
   }
 }

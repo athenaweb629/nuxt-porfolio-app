@@ -18,7 +18,7 @@
 
 <script lang="ts">
 export default {
-  name: 'Index',
+  name: 'Sky',
   data () {
     return {
       playing: false,
@@ -27,7 +27,7 @@ export default {
   },
   head () {
     return {
-      title: 'home'
+      title: 'sky'
     }
   },
   methods: {

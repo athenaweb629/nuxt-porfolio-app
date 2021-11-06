@@ -5,6 +5,8 @@ export default {
   },
   positions: {
     title: 'trabajos.',
+    footer: '¿qué hay de ',
+    works: 'proyectos',
     moon: {
       work: 'Desarrollador senior',
       dates: {
@@ -19,5 +21,9 @@ export default {
         to: 'Presente'
       }
     }
+  },
+  works: {
+    title: 'proyectos.',
+    home: 'Volver al inicio.'
   }
 }

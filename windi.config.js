@@ -13,8 +13,8 @@ export default {
       button: '#2D2934',
       btn_hover: '#37333E',
       main: '#A39DD3',
-      grey: {
-        1: '#201F28',
+      bluegray: {
+        1: '#1F1C22',
         2: '#272635',
         3: '#6F73A0'
       },
