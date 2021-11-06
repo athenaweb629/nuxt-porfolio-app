@@ -10,7 +10,7 @@
           <div class="phb__position-title flex flex-row gap-2 items-center justify-between">
             <h1 class="text-2xl font-600" v-text="position.name" />
             <div class="flex flex-row items-end">
-              <h1 class="text-lg font-400 text-right text-bluegray-3" v-text="$t(`positions.${position.code}.work`)" />
+              <h1 class="text-lg font-400 text-right text-indigo-300" v-text="$t(`positions.${position.code}.work`)" />
             </div>
           </div>
           <div class="phb__position-details flex flex-row gap-2 justify-between items-center text-gray-500">
@@ -22,6 +22,9 @@
           </div>
         </div>
       </div>
+      <nuxt-link to="/">
+        {{ $t('works.home') }}
+      </nuxt-link>
       <!--<h1 class="mt-4">
         {{ $t('positions.footer') }}
         <nuxt-link to="/works">

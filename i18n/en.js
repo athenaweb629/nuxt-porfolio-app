@@ -24,6 +24,6 @@ export default {
   },
   works: {
     title: 'works.',
-    home: 'Return to Index.'
+    home: 'return to index.'
   }
 }

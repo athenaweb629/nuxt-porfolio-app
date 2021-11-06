@@ -24,6 +24,6 @@ export default {
   },
   works: {
     title: 'proyectos.',
-    home: 'Volver al inicio.'
+    home: 'volver al inicio.'
   }
 }

@@ -5,7 +5,7 @@
         <logo :text="$t('works.title')" />
       </div>
       <hr>
-      <div id="phb__works" class="flex flex-col p-8 bg-[#1f1c22] rounded-xl gap-4 mb-4">
+      <div id="phb__works" class="flex flex-col p-8 bg-bluegray-1 rounded-xl gap-4 mb-4">
         <div v-for="work of works" :key="work.code" :class="`phb__work phb__work-${work.code}`">
           <div class="phb__work-title flex flex-row gap-2 items-center">
             <h1 class="text-2xl font-600" v-text="work.name" />
