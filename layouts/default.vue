@@ -1,7 +1,7 @@
 <template>
   <div id="phb__mount" class="w-screen h-screen flex items-center">
     <Nuxt id="phb__content" />
-    <div id="phb__lang" class="absolute top-5 left-5 cursor-pointer flex flex-row items-center" @click="changeLang($i18n.locale)">
+    <!--<div id="phb__lang" class="absolute top-5 left-5 cursor-pointer flex flex-row items-center" @click="changeLang($i18n.locale)">
       <svg
         class="w-6 h-6 md:w-8 md:h-8"
         xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +35,7 @@
       <span class="phb__lang-indicator text-xs md:text-sm select-none uppercase cursor-default">
         {{ $i18n.locale }}
       </span>
-    </div>
+    </div>-->
   </div>
 </template>
 
