@@ -23,8 +23,8 @@
         </div>
       </div>
       <div class="mt-4">
-        <nuxt-link to="/">
-          {{ $t('works.home') }}
+        <nuxt-link to="/sky">
+          {{ $t('works.posts') }}
         </nuxt-link>
       </div>
       <!--<h1 class="mt-4">

@@ -30,8 +30,8 @@ export default {
           code: 'moon'
         },
         {
-          name: 'Puroto App',
-          code: 'puroto'
+          name: 'Creepland',
+          code: 'creepland'
         }
       ]
     }
