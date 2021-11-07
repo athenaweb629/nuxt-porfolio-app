@@ -18,6 +18,9 @@ export default {
         2: '#272635',
         3: '#6F73A0'
       },
+      indigo: colors.indigo,
+      red: colors.red,
+      yellow: colors.yellow,
       ...colors
     }
   }
