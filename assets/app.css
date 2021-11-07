@@ -13,7 +13,7 @@
 }
 
 body {
-   @apply bg-background w-screen h-screen antialiased flex flex-col justify-center text-white;
+   @apply bg-background w-screen h-screen antialiased flex flex-col justify-center text-white overflow-x-hidden;
 }
 
 .phb__social {
@@ -27,6 +27,10 @@ body {
 
 a {
    @apply text-gray-500 fill-gray-500 hover:underline
+}
+
+a.phb__post-title {
+  @apply text-white hover:underline
 }
 
 hr {
