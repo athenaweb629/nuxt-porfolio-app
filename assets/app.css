@@ -42,3 +42,11 @@ hr {
 :root {
   color-scheme: dark;
 }
+
+.phb__post {
+  background-position: center
+}
+
+.phb__post-title {
+  filter: drop-shadow(1px 1px 3px black)
+}
