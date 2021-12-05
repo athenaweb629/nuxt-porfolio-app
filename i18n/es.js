@@ -67,6 +67,22 @@ export default {
         6: 'No tengo nada. Solo puedo fingir que no ocurrió nada. Me importa más ella que yo mismo. Si pudiera, evitaría mi confesión. Me declaré porque pensé en mí mismo más que en la posibilidad de hacerla sentir mal por mi culpa. No lo volveré a hacer. Lo prometo.'
       }
     },
+    nexus: {
+      title: 'Nexo.',
+      date: '5/12 9:36 AM',
+      titles: {
+        1: 'Ey. ¿Cómo estás?',
+        2: '¿Cómo?',
+        3: '¿Al menos la relación ha mejorado?',
+        4: '¿Quieres olvidar tus sentimientos por ella?'
+      },
+      content: {
+        1: 'Tras el último post donde relaté todo lo acontecido, pensé que la había perdido. La verdad es que no fue así. Curiosamente, nos volvimos más cercanos que antes.',
+        2: 'La verdad es que no sé cómo sucedió, pero ahora los dos tenemos una relación muy íntima. Tengo miedo de hacerla daño otra vez, así que es mejor olvidar el tema por un tiempo. Paciencia. No sé si podré aguantar así, ya que la paciencia no es mi virtud.',
+        3: 'Sí, pero la incomodidad nos está doliendo a los dos. Si no se dejaba claro, no podremos continuar con esto. Ella no podrá. Así que tendré que dejar el amor que siento a un lado.',
+        4: 'No exactamente. Solo quiero dejarlos de lado. No quiero ganarme su corazón a partir de ahora. No quiero que se sienta mal o incómoda en mi presencia.'
+      }
+    },
     title: 'cielo.',
     checkout: 'Comprueba mis últimos posts.',
     footer: 'Regresa al cielo.',

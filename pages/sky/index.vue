@@ -38,6 +38,11 @@ export default {
           code: 2,
           name: 'unseen',
           banner: 'https://images.pexels.com/photos/2414454/pexels-photo-2414454.jpeg?cs=srgb&dl=pexels-adrian-lang-2414454.jpg&fm=jpg'
+        },
+        {
+          code: 3,
+          name: 'nexus',
+          banner: 'https://images.unsplash.com/photo-1504253492562-cbc4dc540fcb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'
         }
       ]
     }

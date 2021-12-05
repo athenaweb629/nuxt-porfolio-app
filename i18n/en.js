@@ -67,6 +67,22 @@ export default {
         6: 'I don\'t have anything. I can only pretend it never happened. I care more about her than myself. If I could, I would change everything that happened by avoiding my confession. Just because I thought of myself, I hurt her. It will be the last time, I promise.'
       }
     },
+    nexus: {
+      title: 'Nexus.',
+      date: '5/12 9:36 AM',
+      titles: {
+        1: 'Hey. How are ya?',
+        2: 'How?',
+        3: 'At least your relationship is better?',
+        4: 'Do you wanna forget what do you feel for her?'
+      },
+      content: {
+        1: 'After the last post where I related everything that happened, I thought I had lost her. The truth is that it was not like that. Curiously, we became closer than before.',
+        2: 'The truth is, I don\'t know how it happened. But she and I are more intimate. I\'m afraid of damaging her again, so it\'s better to forget about it for a while. Patience. It\'s a pity that patience is not exactly my virtue, and I don\'t know how long I can endure like this.',
+        3: 'Yes. But discomfort is dominating us both. If we don\'t make it clear, we won\'t be able to continue. She will not be able to. So I have to put that love that I feel aside.',
+        4: 'Not exactly. I just wanna leave it aside. I don\'t want her to feel bad or feel awkward on my presence.'
+      }
+    },
     title: 'sky.',
     checkout: 'Check out my last posts.',
     footer: 'Return to sky.',
