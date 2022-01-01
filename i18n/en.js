@@ -28,25 +28,6 @@ export default {
     posts: 'go to sky.'
   },
   sky: {
-    future: {
-      title: 'Future?',
-      date: '07/11 2:20 AM',
-      colors: {
-        1: 'indigo-500',
-        2: 'yellow-200',
-        3: 'red-500'
-      },
-      titles: {
-        1: 'Hello.',
-        2: 'Things are happening.',
-        3: 'Your experience?'
-      },
-      content: {
-        1: 'I recently made this portfolio for showing my design skills. What is going on, Aex?',
-        2: 'I joined a website called Upwork. I am looking for design jobs in there. I thought it would be great to earn money working on something that I love.',
-        3: 'I think Upwork is the website I should have joined long ago. It\'s like the best opportunity out there. I have to move on, on better projects. I will add a post for more updates about any job.'
-      }
-    },
     unseen: {
       title: 'Unseen.',
       date: '21/11 9:03 AM',
@@ -81,6 +62,20 @@ export default {
         2: 'The truth is, I don\'t know how it happened. But she and I are more intimate. I\'m afraid of damaging her again, so it\'s better to forget about it for a while. Patience. It\'s a pity that patience is not exactly my virtue, and I don\'t know how long I can endure like this.',
         3: 'Yes. But discomfort is dominating us both. If we don\'t make it clear, we won\'t be able to continue. She will not be able to. So I have to put that love that I feel aside.',
         4: 'Not exactly. I just wanna leave it aside. I don\'t want her to feel bad or feel awkward on my presence.'
+      }
+    },
+    2022: {
+      title: '2022.',
+      date: '1/1 3:41 AM',
+      titles: {
+        1: 'It\'s been so long.',
+        2: 'How are ya, pal?',
+        3: 'What about her?'
+      },
+      content: {
+        1: 'Honestly I\'m going to save personal events. A lot has happened. First of all: happy new year, user.',
+        2: 'Well, I am happier than before. Things are going well for now. I didn\'t have luck on Upwork, but it doesn\'t matter.',
+        3: 'We are not a couple, but that doesn\'t matter to me now. Listen. If you love someone like I do, don\'t expect that person to love you back. Persons like me don\'t abandon the people they love. I learned so much things and I think I am ready to ascend.'
       }
     },
     title: 'sky.',

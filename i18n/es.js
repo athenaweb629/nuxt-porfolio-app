@@ -28,25 +28,6 @@ export default {
     posts: 'ir al cielo.'
   },
   sky: {
-    future: {
-      title: '¿Futuro?',
-      date: '07/11 2:20 AM',
-      colors: {
-        1: 'indigo-500',
-        2: 'yellow-200',
-        3: 'red-500'
-      },
-      titles: {
-        1: 'Hola.',
-        2: 'Llegan cosas nuevas.',
-        3: '¿Qué opinas?'
-      },
-      content: {
-        1: 'Recientemente he creado este portafolio para probar mis habilidades de diseño. He creado este post para expresarme. ¿Qué pasa, Aex?',
-        2: 'Me he unido a una página web llamada Upwork. Esta web funciona para buscar trabajo como freelance. Ya que a la gente le gustaba mis diseños, pensé que era buena idea el poder trabajar de lo que me gusta.',
-        3: 'Siento que Upwork es la página en la que debía haber estado antes. Están las mejores oportunidades para un joven de 16 como yo. Es hora de avanzar en proyectos más ambiciosos. Postearé más tarde si logro obtener un trabajo.'
-      }
-    },
     unseen: {
       title: 'No visto.',
       date: '21/11 9:03 AM',
@@ -81,6 +62,20 @@ export default {
         2: 'La verdad es que no sé cómo sucedió, pero ahora los dos tenemos una relación muy íntima. Tengo miedo de hacerla daño otra vez, así que es mejor olvidar el tema por un tiempo. Paciencia. No sé si podré aguantar así, ya que la paciencia no es mi virtud.',
         3: 'Sí, pero la incomodidad nos está doliendo a los dos. Si no se dejaba claro, no podremos continuar con esto. Ella no podrá. Así que tendré que dejar el amor que siento a un lado.',
         4: 'No exactamente. Solo quiero dejarlos de lado. No quiero ganarme su corazón a partir de ahora. No quiero que se sienta mal o incómoda en mi presencia.'
+      }
+    },
+    2022: {
+      title: '2022.',
+      date: '1/1 3:41 AM',
+      titles: {
+        1: 'Ha durado lo suyo...',
+        2: '¿Qué tal, tío?',
+        3: '¿Qué hay de ella?'
+      },
+      content: {
+        1: 'Sinceramente, me voy a guardar eventos personales. Han pasado muchas cosas. Primero que nada: feliz año nuevo, usuario.',
+        2: 'Bueno, soy más feliz que antes. Las cosas van bien por ahora. No tuve suerte con Upwork, pero no importa.',
+        3: 'No somos pareja, pero eso ya no me importa. Escucha. Si amas a alguien como yo, no esperes que esa persona te ame a ti. Las personas como yo no abandonan a las personas que aman. He aprendido muchas cosas. Creo que estoy listo para ascender.'
       }
     },
     title: 'cielo.',
