@@ -1,5 +1,5 @@
 <template>
-  <div id="015__mount">
+  <div id="0x000007__mount">
     <Nuxt />
   </div>
 </template>

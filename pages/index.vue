@@ -1,7 +1,7 @@
 <template>
-  <div id="015__home" class="flex w-screen h-screen flex-row justify-center items-center">
-    <div id="015__console" class="flex flex-col">
-      <div>
+  <div id="phb__home" class="flex w-screen h-screen flex-row justify-center items-center">
+    <div id="phb__console" class="flex flex-col">
+      <div class="phb__console-details">
         <span class="text-violet-400">aurora</span>
         <span class="text-violet-200">~/labs/phobos</span>
         <span class="text-violet-300">></span>
