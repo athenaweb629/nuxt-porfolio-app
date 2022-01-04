@@ -62,7 +62,7 @@ export default {
     if (input) {
       input.onkeyup = () => {
         if (this.letters[input.value.toLowerCase()]) {
-          this.current = this.letters[input.value]
+          this.current = this.letters[input.value.toLowerCase()]
         } else {
           this.current = { content: '', username: '' }
         }
