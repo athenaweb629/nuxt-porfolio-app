@@ -6,7 +6,7 @@ const _ = {
 
 export default {
   head: {
-    title: 'Phobos',
+    title: 'aexhell.',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
