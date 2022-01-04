@@ -1,26 +1,25 @@
 <template>
-  <div id="phb__home" class="w-full flex-col flex p-24 rounded-xl justify-center items-center">
-    <div class="phb__container md:w-1/2">
-      <div class="phb__logo flex flex-row">
-        <logo text="aexhell." />
+  <div id="015__home" class="flex w-screen h-screen flex-row justify-center items-center">
+    <div id="015__console" class="flex flex-col">
+      <div>
+        <span class="text-violet-400">aurora</span>
+        <span class="text-violet-200">~/labs/phobos</span>
+        <span class="text-violet-300">></span>
+        <span class="text-violet-300 bg-violet-300 waveAnim">|</span>
       </div>
-      <hr>
-      {{ $t('home.description') }}
-      <nuxt-link to="./positions">
-        {{ $t('home.positions') }}
-      </nuxt-link>
-      <Social />
+      <div class="flex flex-row">
+        <p class="text-violet-200 whitespace-pre-line">
+          contact info: <span class="text-white">hi@aexhell.ml</span>
+          discord: <span class="text-white">aexhell#0011</span>
+          twitter/github/polywork: <span class="text-white">@aexhell</span>
+        </p>
+      </div>
     </div>
   </div>
 </template>
 
-<script>
+<script lang="ts">
 export default {
-  name: 'Index',
-  head () {
-    return {
-      title: 'home'
-    }
-  }
+  name: 'IndexPage'
 }
 </script>
