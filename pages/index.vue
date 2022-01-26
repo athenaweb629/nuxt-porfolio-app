@@ -10,7 +10,7 @@
       <div class="flex flex-row">
         <p class="text-violet-200 whitespace-pre-line">
           contact info: <span class="text-white">hi@aexhell.ml</span>
-          discord: <span class="text-white">aexhell#0011</span>
+          discord: <span class="text-white">aexhell#2194</span>
           twitter/github/polywork: <span class="text-white">@aexhell</span>
           <br>
           <nuxt-link to="/love">
