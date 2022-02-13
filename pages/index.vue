@@ -1,21 +1,14 @@
 <template>
   <div id="phb__home" class="flex w-screen h-screen flex-row justify-center items-center">
-    <div id="phb__console" class="flex flex-col">
-      <div class="phb__console-details">
-        <span class="text-violet-400">aurora</span>
-        <span class="text-violet-200">~/labs/phobos</span>
-        <span class="text-violet-300">></span>
-        <span class="text-violet-300 bg-violet-300 waveAnim">|</span>
-      </div>
-      <div class="flex flex-row">
-        <p class="text-violet-200 whitespace-pre-line">
-          contact info: <span class="text-white">hi@aexhell.ml</span>
-          discord: <span class="text-white">aexhell#0011</span>
-          twitter/github/polywork: <span class="text-white">@aexhell</span>
-          <br>
-          <nuxt-link to="/love">
-            love letter.
-          </nuxt-link>
+    <div class="phb__post-container flex flex-row">
+      <img class="w-16 h-16 rounded-full mr-4" src="avatar.png">
+      <div class="phb__user-details flex flex-col">
+        <h1 class="text-white font-medium text-xl">
+          aexhell
+        </h1>
+        <span class="text-midnight-400">@aurora</span>
+        <p class="mt-4">
+          coming soon
         </p>
       </div>
     </div>

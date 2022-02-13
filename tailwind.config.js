@@ -13,12 +13,14 @@ module.exports = {
       colors: {
         white: '#ffffff',
         midnight: {
-          100: '#211b2a',
-          200: '#2d2638'
+          100: '#272130',
+          200: '#2d2638',
+          300: '#433B50',
+          400: '#635676'
         }
       },
       fontFamily: {
-        sans: ['IBM Plex Mono', 'monospace']
+        sans: ['Inter', '"Public Sans"', 'sans-serif']
       }
     }
   },
