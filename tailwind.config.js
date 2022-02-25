@@ -25,7 +25,7 @@ module.exports = {
         }
       },
       fontFamily: {
-        sans: ['IBM Plex Mono', 'Fira Code', 'sans-serif']
+        sans: ['"IBM Plex Mono"', 'Fira Code', 'sans-serif']
       }
     }
   },
