@@ -3,7 +3,7 @@
 }
 
 body {
-   @apply bg-midnight-100 text-white w-screen h-screen
+   @apply bg-midnight-150 text-white w-screen h-screen overflow-x-hidden
 }
 
 span.waveAnim {
@@ -22,4 +22,24 @@ span.waveAnim {
 
 div.phb__console-details {
    text-shadow: 0px 0px 10px currentColor
+}
+
+#015__topbar {
+   border-bottom: 1px solid white
+}
+
+a {
+   @apply text-midnight-500
+}
+
+a:hover {
+   @apply text-midnight-600 underline
+}
+
+.phb__work-container {
+   @apply border-b md:border-b-0 md:border-r border-midnight-300
+}
+
+.phb__work-container:last-child {
+   border: none
 }

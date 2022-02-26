@@ -13,7 +13,8 @@ module.exports = {
       colors: {
         white: '#ffffff',
         midnight: {
-          100: '#272130',
+          100: '#241F2C',
+          150: '#272130',
           200: '#2d2638',
           300: '#433B50',
           400: '#635676',
@@ -21,7 +22,8 @@ module.exports = {
           600: '#B9A0DF',
           700: '#C2AFDF',
           800: '#CCBEE1',
-          900: '#E5D3FF'
+          900: '#E5D3FF',
+          1000: '#E6D5FF'
         }
       },
       fontFamily: {
