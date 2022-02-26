@@ -4,7 +4,7 @@
       <div class="phb__post-details">
         <span class="text-midnight-400 text-sm">>> [#] 2/25/2022 1:35 PM</span>
       </div>
-      <p v-if="showMsg" class="text-midnight-900">
+      <p v-if="showMsg" class="text-midnight-900 text-center">
         [耒] / {{ messages[phrase ? phrase : Math.floor(Math.random() * messages.length)] }}
       </p>
       <p v-else class="text-midnight-900">
@@ -58,7 +58,7 @@ export default {
     this.showMsg = true
   },
   methods: {
-    storeToken (token) {
+    storeToken () {
       const get = localStorage.getItem('phrase')
       if (!get) { localStorage.setItem('phrase', Math.floor(Math.random() * this.messages.length)) } else { this.phrase = get }
     }
