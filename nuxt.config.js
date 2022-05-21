@@ -10,7 +10,9 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'aexhell. ' },
+      { hid: 'description', name: 'description', content: 'aexhell. front-end developer. reach for the moon.' },
+      { name: 'og:site_name', content: 'aexhell.' },
+      { property: 'og:description', content: 'aexhell. front-end developer. reach for the moon.' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
