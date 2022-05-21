@@ -44,8 +44,6 @@ export default {
         'i don\'t know what a family is.',
         'have you really found solace in the dark?',
         'it\'s snowing out there.',
-        'hey, wanna play some smash?',
-        'remember what i said about that girl? i lied.',
         'sorry about that, boy.',
         'congratulations! you found the secret phrase!',
         'midnight is the answer.',
