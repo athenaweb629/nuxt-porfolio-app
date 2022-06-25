@@ -34,7 +34,7 @@ export default {
         {
           code: 'anemone',
           position: 'Senior Developer',
-          period: 'Dec. 2021 / Feb. 2022
+          period: 'Dec. 2021 / Feb. 2022'
         },
         {
           code: 'requiem',
