@@ -1,5 +1,5 @@
 <template>
-  <div id="phb__topbar" class="fixed border-b border-midnight-200 bg-midnight-100 flex flex-row justify-between p-12 w-full">
+  <div id="phb__topbar" class="lg:fixed border-b border-midnight-200 bg-midnight-100 flex flex-row justify-between p-12 w-full">
     <div class="phb__topbar-left">
       <nuxt-link to="/" class="text-midnight-600">
         aexhell.

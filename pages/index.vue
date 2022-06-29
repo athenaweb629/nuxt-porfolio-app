@@ -2,7 +2,7 @@
   <div id="phb__home" class="flex w-screen h-screen flex-row justify-center items-center">
     <div class="phb__post-container flex flex-col justify-center items-center">
       <div class="phb__post-details">
-        <span class="text-midnight-400 text-sm">>> [#] 2/25/2022 1:35 PM</span>
+        <span class="text-midnight-400 text-sm">>> [#] {{ date.getMonth() }}/{{ date.getDate() }}/{{ date.getFullYear() }} {{ date.getHours() }}:{{ date.getMinutes() < 10 ? `0${date.getMinutes()}` : date.getMinutes() }} {{ date.getHours() >= 12 ? 'PM' : 'AM' }}</span>
       </div>
       <p v-if="showMsg" class="text-midnight-900 text-center">
         [耒] / {{ messages[phrase ? phrase : Math.floor(Math.random() * messages.length)] }}
@@ -24,6 +24,7 @@ export default {
   name: 'IndexPage',
   data () {
     return {
+      date: new Date(),
       phrase: null,
       showMsg: false,
       messages: [

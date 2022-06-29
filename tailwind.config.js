@@ -11,6 +11,9 @@ module.exports = {
       indigo: colors.indigo
     },
     extend: {
+      spacing: {
+        100: '32rem'
+      },
       colors: {
         white: '#ffffff',
         midnight: {

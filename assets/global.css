@@ -36,8 +36,12 @@ a:hover {
    @apply text-midnight-600 underline
 }
 
+.pt-\[32rem\] {
+   padding-top: 32rem
+}
+
 .phb__work-container {
-   @apply border-b md:border-b-0 md:border-r border-midnight-300
+   @apply border-b lg:border-b-0 lg:border-r border-midnight-300
 }
 
 .phb__work-container:last-child {
