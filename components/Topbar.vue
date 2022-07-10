@@ -1,11 +1,11 @@
 <template>
-  <div id="phb__topbar" class="lg:fixed border-b border-midnight-200 bg-midnight-100 flex flex-row justify-between p-12 w-full">
-    <div class="phb__topbar-left">
+  <div id="axhl__topbar" class="lg:fixed border-b border-midnight-200 bg-midnight-100 flex flex-row justify-between p-12 w-full">
+    <div class="axhl__topbar-left">
       <nuxt-link to="/" class="text-midnight-600">
         aexhell.
       </nuxt-link>
     </div>
-    <div class="phb__topbar-right flex flex-row">
+    <div class="axhl__topbar-right flex flex-row">
       <nuxt-link to="/about" class="ml-6">
         about.
       </nuxt-link>

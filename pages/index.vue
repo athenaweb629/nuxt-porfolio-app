@@ -1,7 +1,7 @@
 <template>
-  <div id="phb__home" class="flex w-screen h-screen flex-row justify-center items-center">
-    <div class="phb__post-container flex flex-col justify-center items-center">
-      <div class="phb__post-details">
+  <div id="axhl__home" class="flex w-screen h-screen flex-row justify-center items-center">
+    <div class="axhl__post-container flex flex-col justify-center items-center">
+      <div class="axhl__post-details">
         <span class="text-midnight-400 text-sm">>> [#] {{ date.getMonth() }}/{{ date.getDate() }}/{{ date.getFullYear() }} {{ date.getHours() }}:{{ date.getMinutes() < 10 ? `0${date.getMinutes()}` : date.getMinutes() }} {{ date.getHours() >= 12 ? 'PM' : 'AM' }}</span>
       </div>
       <p v-if="showMsg" class="text-midnight-900 text-center">
@@ -10,7 +10,7 @@
       <p v-else class="text-midnight-900">
         [耒]
       </p>
-      <div class="phb__social mt-8 text-midnight-500 text-sm">
+      <div class="axhl__social mt-8 text-midnight-500 text-sm">
         <a href="https://github.com/aexhell">
           地狱
         </a>

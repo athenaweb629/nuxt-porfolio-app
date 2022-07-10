@@ -20,7 +20,7 @@ span.waveAnim {
    }
 }
 
-div.phb__console-details {
+div.axhl__console-details {
    text-shadow: 0px 0px 10px currentColor
 }
 
@@ -40,10 +40,10 @@ a:hover {
    padding-top: 32rem
 }
 
-.phb__work-container {
+.axhl__work-container {
    @apply border-b lg:border-b-0 lg:border-r border-midnight-300
 }
 
-.phb__work-container:last-child {
+.axhl__work-container:last-child {
    border: none
 }
