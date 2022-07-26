@@ -12,6 +12,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'aexhell. front-end developer. reach for the moon.' },
       { name: 'og:site_name', content: 'aexhell.' },
+      { name: 'og:title', content: 'lunar.' },
       { property: 'og:description', content: 'aexhell. front-end developer. reach for the moon.' },
       { name: 'format-detection', content: 'telephone=no' }
     ],

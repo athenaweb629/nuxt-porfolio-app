@@ -1,21 +1,15 @@
-const colors = require('tailwindcss/colors')
-
 module.exports = {
   content: [],
   darkMode: false,
   theme: {
-    colors: {
-      black: colors.black,
-      violet: colors.violet,
-      gray: colors.gray,
-      indigo: colors.indigo
-    },
     extend: {
       spacing: {
         100: '32rem'
       },
       colors: {
         white: '#ffffff',
+        transparent: 'transparent',
+        currentColor: 'currentColor',
         midnight: {
           100: '#241F2C',
           150: '#272130',
@@ -27,11 +21,11 @@ module.exports = {
           700: '#C2AFDF',
           800: '#CCBEE1',
           900: '#E5D3FF',
-          1000: '#E6D5FF'
+          1000: '#EBDEFF'
         }
       },
       fontFamily: {
-        sans: ['"IBM Plex Mono"', 'Fira Code', 'sans-serif']
+        sans: ['"Inter"', 'Public Sans', 'sans-serif']
       }
     }
   },

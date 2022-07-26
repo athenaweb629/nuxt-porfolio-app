@@ -1,19 +1,41 @@
 <template>
-  <div id="axhl__home" class="flex w-screen h-screen flex-row justify-center items-center">
-    <div class="axhl__post-container flex flex-col justify-center items-center">
-      <div class="axhl__post-details">
-        <span class="text-midnight-400 text-sm">>> [#] {{ date.getMonth() }}/{{ date.getDate() }}/{{ date.getFullYear() }} {{ date.getHours() }}:{{ date.getMinutes() < 10 ? `0${date.getMinutes()}` : date.getMinutes() }} {{ date.getHours() >= 12 ? 'PM' : 'AM' }}</span>
+  <div id="axhl__home" class="flex w-full h-full flex-col justify-center items-center">
+    <div class="relative w-screen h-screen flex flex-col justify-center items-center">
+      <span class="md:hidden block select-none absolute w-min left-3 text-left text-midnight-400">/\\ \\\\ · / /// - // \ /\\ \\\\ · / /// - // \ /\\ \\\\ · / /// - // \ /\</span>
+      <h1 class="text-6xl font-bold text-midnight-900">
+        i'm
+      </h1>
+      <h1 id="__title-stroke" class="text-6xl font-bold text-midnight-900">
+        aexhell.
+      </h1>
+      <span class="md:hidden block select-none absolute w-min right-6 text-right text-midnight-400">/\\ \\\\ · / /// - // \ /\\ \\\\ · / /// - // \ /\\ \\\\ · / /// - // \ /\</span>
+    </div>
+    <div class="flex p-12 flex-col w-full">
+      <div class="__axhl-container">
+        <h1 class="md:text-3xl text-4xl font-bold text-midnight-900">
+          hello.
+        </h1>
+        <p class="mb-6 text-midnight-1000 text-base md:text-md">
+          The name's Aexhell. I am a 16-yo front-end developer focused on web engineering.
+          My main tools are Visual Studio Code and Figma. I started programming around 2015, GML being my first language. On 2018, I started learning HTML, CSS, and JS. On 2019-2020, I started learning the Vue.js framework, with Nuxt on 2021. On 2022, I started learning Svelte framework.
+        </p>
       </div>
-      <p v-if="showMsg" class="text-midnight-900 text-center">
-        [耒] / {{ messages[phrase ? phrase : Math.floor(Math.random() * messages.length)] }}
-      </p>
-      <p v-else class="text-midnight-900">
-        [耒]
-      </p>
-      <div class="axhl__social mt-8 text-midnight-500 text-sm">
-        <a href="https://github.com/aexhell">
-          地狱
-        </a>
+      <div class="__axhl-container">
+        <h1 class="md:text-3xl text-4xl font-bold text-midnight-900">
+          contact.
+        </h1>
+        <p class="mb-6 text-midnight-1000 text-base md:text-md">
+          You can use my <a href="mailto:aexhell@gmail.com">email</a> to contact me.
+          If do you have a project request, have in mind that:
+          <ul class="ml-8 list-disc my-2">
+            <li>I do not accept projects using React/Angular/PHP. I work with Vue.js/Nuxt.</li>
+            <li>I do not accept projects without payment we can discuss the price of the project.</li>
+            <li>I am not entirely back-end. I have more experience with front-end.</li>
+            <li>I prefer telecommuting.</li>
+            <li>I accept payments using PayPal with my currency (€ &lt;euro&gt;).</li>
+          </ul>
+          If you agree with all of these statements, contact me using the email from above.
+        </p>
       </div>
     </div>
   </div>
@@ -21,46 +43,6 @@
 
 <script>
 export default {
-  name: 'IndexPage',
-  data () {
-    return {
-      date: new Date(),
-      phrase: null,
-      showMsg: false,
-      messages: [
-        'for a better day. for a broken sky.',
-        'reach for the moon.',
-        'come back home.',
-        'carve your name into those shining stars',
-        'one day, i had a garden. soon i won\'t have any garden.',
-        'sitting in the grass, watching my whole world reborn.',
-        'retribution.',
-        'do you remember being born?',
-        'apart but still together.',
-        'tell me, how does it feel to be betrayed by your own kin?',
-        'looking out for you.',
-        'sweet blossom~',
-        'maybe if i keep believing, my dreams will come to life.',
-        '17',
-        'happiness.toString() returns null to me.',
-        'find your shelter.',
-        'have you really found solace in the dark?',
-        'it\'s snowing out there.',
-        'congratulations! you found the secret phrase!',
-        'midnight is the answer.',
-        '0xz28.'
-      ]
-    }
-  },
-  mounted () {
-    // this.storeToken()
-    this.showMsg = true
-  },
-  methods: {
-    storeToken () {
-      const get = localStorage.getItem('phrase')
-      if (!get) { localStorage.setItem('phrase', Math.floor(Math.random() * this.messages.length)) } else { this.phrase = get }
-    }
-  }
+  name: 'IndexPage'
 }
 </script>

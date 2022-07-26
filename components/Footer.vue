@@ -1,7 +1,7 @@
 <template>
-  <div id="axhl__footer" class="absolute bg-midnight-100 flex flex-row justify-between p-6 w-full">
-    <h1 class="text-midnight-600">
-      made by aexhell
+  <div id="axhl__footer" class="absolute bottom-15 bg-midnight-100 flex flex-row md:justify-between justify-center p-6 w-full">
+    <h1 class="text-midnight-500">
+      made by <a href="https://github.com/aexhell">aexhell</a>.
     </h1>
   </div>
 </template>

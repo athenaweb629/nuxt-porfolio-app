@@ -6,28 +6,6 @@ body {
    @apply bg-midnight-150 text-white w-screen h-screen overflow-x-hidden
 }
 
-span.waveAnim {
-   animation: waveEffect infinite normal 1s;
-   animation-timing-function: steps(1, end)
-}
-
-@keyframes waveEffect {
-   0% {
-      opacity: 0
-   }
-   50% {
-      opacity: 1
-   }
-}
-
-div.axhl__console-details {
-   text-shadow: 0px 0px 10px currentColor
-}
-
-#015__topbar {
-   border-bottom: 1px solid white
-}
-
 a {
    @apply text-midnight-500
 }
@@ -46,4 +24,10 @@ a:hover {
 
 .axhl__work-container:last-child {
    border: none
+}
+
+#__title-stroke {
+   @apply text-midnight-150;
+   -webkit-font-smoothing: antialiased;
+   text-shadow: #caa4e0 0px 0px 1px, #caa4e0 0px 0px 1px, #caa4e0 0px 0px 1px, #caa4e0 0px 0px 1px, #caa4e0 0px 0px 1px, #caa4e0 0px 0px 1px, #caa4e0 0px 0px 1px;
 }
