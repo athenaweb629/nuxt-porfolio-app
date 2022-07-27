@@ -1,6 +1,6 @@
 <template>
   <div id="axhl__home" class="flex w-full h-full flex-col justify-center items-center">
-    <div class="relative w-screen h-screen flex flex-col justify-center items-center">
+    <div class="relative w-screen h-screen flex flex-col justify-center items-center overflow-hidden">
       <span class="md:hidden block select-none absolute w-min left-3 text-left text-midnight-400">/\\ \\\\ · / /// - // \ /\\ \\\\ · / /// - // \ /\\ \\\\ · / /// - // \ /\ /\\ \\\\ · / /// - // \ /\\ \\\\ · / /// - // \ /\\ \\\\</span>
       <h1 id="__subtitle-stroke" class="text-6xl font-bold text-midnight-900">
         i'm
@@ -10,7 +10,7 @@
       </h1>
       <span class="md:hidden block select-none absolute w-min right-6 text-right text-midnight-400">/\\ \\\\ · / /// - // \ /\\ \\\\ · / /// - // \ /\\ \\\\ · / /// - // \ /\ /\\ \\\\ · / /// - // \ /\\ \\\\ · / /// - // \ /\\ \\\\</span>
     </div>
-    <div class="flex p-12 flex-col w-full">
+    <div class="flex p-12 flex-col w-full overflow-x-hidden">
       <div class="__axhl-container">
         <h1 class="md:text-4xl text-3xl font-bold text-midnight-900">
           hello.
