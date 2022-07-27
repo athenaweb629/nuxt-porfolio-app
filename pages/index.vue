@@ -1,7 +1,7 @@
 <template>
   <div id="axhl__home" class="flex w-full h-full flex-col justify-center items-center">
     <div class="relative w-screen h-screen flex flex-col justify-center items-center overflow-hidden">
-      <span class="md:hidden block select-none absolute w-min left-3 text-left text-midnight-400">/\\ \\\\ · / /// - // \ /\\ \\\\ · / /// - // \ /\\ \\\\ · / /// - // \ /\ /\\ \\\\ · / /// - // \ /\\ \\\\ · / /// - // \ /\\ \\\\</span>
+      <span class="md:hidden block select-none absolute w-min top-0 left-3 text-left text-midnight-400">/\\ \\\\ · / /// - // \ /\\ \\\\ · / /// - // \ /\\ \\\\ · / /// - // \ /\ /\\ \\\\ · / /// - // \ /\\ \\\\ · / /// - // \ /\\ \\\\</span>
       <h1 id="__subtitle-stroke" class="text-6xl font-bold text-midnight-900">
         i'm
       </h1>
@@ -10,7 +10,7 @@
       </h1>
       <div class="flex flex-col justify-center items-center mt-4">
         <svg
-          class="md:hidden block slidedown"
+          class="md:hidden block slidedown cursor-pointer"
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
           version="1.1"
@@ -28,7 +28,7 @@
           </g>
         </svg>
       </div>
-      <span class="md:hidden block select-none absolute w-min right-6 text-right text-midnight-400">/\\ \\\\ · / /// - // \ /\\ \\\\ · / /// - // \ /\\ \\\\ · / /// - // \ /\ /\\ \\\\ · / /// - // \ /\\ \\\\ · / /// - // \ /\\ \\\\</span>
+      <span class="md:hidden block select-none absolute top-0 w-min right-6 text-right text-midnight-400">/\\ \\\\ · / /// - // \ /\\ \\\\ · / /// - // \ /\\ \\\\ · / /// - // \ /\ /\\ \\\\ · / /// - // \ /\\ \\\\ · / /// - // \ /\\ \\\\</span>
     </div>
     <div class="flex p-12 flex-col w-full overflow-x-hidden">
       <div ref="data-container" class="__axhl-container">
