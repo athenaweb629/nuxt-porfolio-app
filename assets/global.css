@@ -31,3 +31,17 @@ a:hover {
    -webkit-font-smoothing: antialiased;
    text-shadow: #caa4e0 0px 0px 1px, #caa4e0 0px 0px 1px, #caa4e0 0px 0px 1px, #caa4e0 0px 0px 1px, #caa4e0 0px 0px 1px, #caa4e0 0px 0px 1px, #caa4e0 0px 0px 1px;
 }
+
+#__title-stroke::before {
+   @apply absolute w-full text-midnight-900 overflow-hidden;
+   content: "aexhell.";
+   text-shadow: none;
+   height: 38px
+}
+
+#__subtitle-stroke {
+   --tw-text-opacity: 1;
+   color: rgba(39,33,48,var(--tw-text-opacity));
+   -webkit-font-smoothing: antialiased;
+   text-shadow: #caa4e0 0 0 1px, #caa4e0 0 0 1px, #caa4e0 0 0 1px, #caa4e0 0 0 1px, #caa4e0 0 0 1px, #caa4e0 0 0 1px, #caa4e0 0 0 1px;
+}

@@ -2,7 +2,7 @@
   <div id="axhl__home" class="flex w-full h-full flex-col justify-center items-center">
     <div class="relative w-screen h-screen flex flex-col justify-center items-center">
       <span class="md:hidden block select-none absolute w-min left-3 text-left text-midnight-400">/\\ \\\\ · / /// - // \ /\\ \\\\ · / /// - // \ /\\ \\\\ · / /// - // \ /\ /\\ \\\\ · / /// - // \ /\\ \\\\ · / /// - // \ /\\ \\\\</span>
-      <h1 class="text-6xl font-bold text-midnight-900">
+      <h1 id="__subtitle-stroke" class="text-6xl font-bold text-midnight-900">
         i'm
       </h1>
       <h1 id="__title-stroke" class="text-6xl font-bold text-midnight-900">
