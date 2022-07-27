@@ -14,20 +14,8 @@ a:hover {
    @apply text-midnight-600 underline
 }
 
-.pt-\[32rem\] {
-   padding-top: 32rem
-}
-
-.axhl__work-container {
-   @apply border-b lg:border-b-0 lg:border-r border-midnight-300
-}
-
-.axhl__work-container:last-child {
-   border: none
-}
-
 #__title-stroke {
-   @apply text-midnight-150;
+   @apply text-midnight-150 select-none;
    -webkit-font-smoothing: antialiased;
    text-shadow: #caa4e0 0px 0px 1px, #caa4e0 0px 0px 1px, #caa4e0 0px 0px 1px, #caa4e0 0px 0px 1px, #caa4e0 0px 0px 1px, #caa4e0 0px 0px 1px, #caa4e0 0px 0px 1px
 }
@@ -48,11 +36,36 @@ a:hover {
    text-shadow: #caa4e0 0 0 1px, #caa4e0 0 0 1px, #caa4e0 0 0 1px, #caa4e0 0 0 1px, #caa4e0 0 0 1px, #caa4e0 0 0 1px, #caa4e0 0 0 1px
 }
 
+.slidedown {
+   animation: slidedown ease-in-out normal infinite 2s
+}
+
+.slidedown:hover {
+   @apply text-midnight-600
+}
+
 @keyframes fade {
    0% {
       height: 0px
    }
    100% {
       height: 38px
+   }
+}
+
+@keyframes slidedown {
+   0% {
+      opacity: 1
+   }
+   25% {
+      transform: translateY(15px);
+      opacity: 0
+   }
+   50% {
+      transform: translateY(-30px);
+      opacity: 0
+   }
+   75% {
+      transform: translateY(15px);
    }
 }
