@@ -29,19 +29,30 @@ a:hover {
 #__title-stroke {
    @apply text-midnight-150;
    -webkit-font-smoothing: antialiased;
-   text-shadow: #caa4e0 0px 0px 1px, #caa4e0 0px 0px 1px, #caa4e0 0px 0px 1px, #caa4e0 0px 0px 1px, #caa4e0 0px 0px 1px, #caa4e0 0px 0px 1px, #caa4e0 0px 0px 1px;
+   text-shadow: #caa4e0 0px 0px 1px, #caa4e0 0px 0px 1px, #caa4e0 0px 0px 1px, #caa4e0 0px 0px 1px, #caa4e0 0px 0px 1px, #caa4e0 0px 0px 1px, #caa4e0 0px 0px 1px
 }
 
 #__title-stroke::before {
    @apply absolute w-full text-midnight-900 overflow-hidden;
    content: "aexhell.";
    text-shadow: none;
-   height: 38px
+   height: 0px;
+   animation: fade cubic-bezier(0.65, 0.05, 0.36, 1) normal 0.5s forwards;
+   animation-delay: 1s
 }
 
 #__subtitle-stroke {
    --tw-text-opacity: 1;
    color: rgba(39,33,48,var(--tw-text-opacity));
    -webkit-font-smoothing: antialiased;
-   text-shadow: #caa4e0 0 0 1px, #caa4e0 0 0 1px, #caa4e0 0 0 1px, #caa4e0 0 0 1px, #caa4e0 0 0 1px, #caa4e0 0 0 1px, #caa4e0 0 0 1px;
+   text-shadow: #caa4e0 0 0 1px, #caa4e0 0 0 1px, #caa4e0 0 0 1px, #caa4e0 0 0 1px, #caa4e0 0 0 1px, #caa4e0 0 0 1px, #caa4e0 0 0 1px
+}
+
+@keyframes fade {
+   0% {
+      height: 0px
+   }
+   100% {
+      height: 38px
+   }
 }
