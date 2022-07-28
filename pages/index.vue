@@ -49,10 +49,10 @@
           If you have a project request, have in mind that:
           <ul class="ml-8 list-disc my-2">
             <li>I do not accept projects using React/Angular/PHP. I work with Vue.js/Nuxt.</li>
-            <li>I do not accept projects without payment we can discuss the price of the project.</li>
+            <li>I do not accept projects without payment. We can discuss the price of the project.</li>
             <li>I am not entirely back-end. I have more experience with front-end.</li>
             <li>I prefer telecommuting.</li>
-            <li>I accept payments using PayPal with my currency (€ &lt;euro&gt;).</li>
+            <li>I accept payments using my currency (€ &lt;euro&gt;).</li>
           </ul>
           If you agree with all of these statements, contact me using the email from above.
         </p>
