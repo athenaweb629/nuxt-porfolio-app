@@ -46,7 +46,7 @@
         </h1>
         <p class="mb-6 text-midnight-1000 text-base md:text-md">
           You can use my <a href="mailto:aexhell@gmail.com">email</a> to contact me.
-          If do you have a project request, have in mind that:
+          If you have a project request, have in mind that:
           <ul class="ml-8 list-disc my-2">
             <li>I do not accept projects using React/Angular/PHP. I work with Vue.js/Nuxt.</li>
             <li>I do not accept projects without payment we can discuss the price of the project.</li>

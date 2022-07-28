@@ -57,15 +57,16 @@ a:hover {
    0% {
       opacity: 1
    }
-   25% {
+   50% {
       transform: translateY(15px);
       opacity: 0
    }
-   50% {
+   55% {
       transform: translateY(-30px);
       opacity: 0
    }
-   75% {
-      transform: translateY(15px);
+   100% {
+      transform: translateY(0px);
+      opacity: 1
    }
 }
