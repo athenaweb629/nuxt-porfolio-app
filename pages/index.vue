@@ -1,69 +1,88 @@
 <template>
-  <div id="axhl__home" class="flex w-full h-full flex-col justify-center items-center">
-    <div class="relative w-screen h-screen flex flex-col justify-center items-center overflow-hidden">
-      <span class="md:hidden block select-none absolute w-min top-0 left-3 text-left text-midnight-400">/\\ \\\\ · / /// - // \ /\\ \\\\ · / /// - // \ /\\ \\\\ · / /// - // \ /\ /\\ \\\\ · / /// - // \ /\\ \\\\ · / /// - // \ /\\ \\\\</span>
-      <h1 id="__subtitle-stroke" class="text-6xl font-bold text-midnight-900">
-        i'm
-      </h1>
-      <h1 id="__title-stroke" class="text-6xl font-bold text-midnight-900">
-        aexhell.
-      </h1>
-      <div class="flex flex-col justify-center items-center mt-4">
+  <div id="axhl__home" class="w-screen h-screen px-12 md:px-24 py-12 z-0">
+    <div class="flex flex-row w-full items-center md:justify-start justify-center">
+      <nuxt-link to="/" class="uppercase text-sm font-light text-midnight-800 mr-4">
+        Home
+      </nuxt-link>
+      <nuxt-link to="/about" class="uppercase text-sm font-light text-midnight-500 mr-4">
+        About
+      </nuxt-link>
+      <nuxt-link to="/contact" class="uppercase text-sm font-light text-midnight-500">
+        Contact
+      </nuxt-link>
+    </div>
+    <div class="flex flex-row justify-start items-start w-full xs:h-2/6 sm:h-2/6 h-2/6 bg-midnight-200 mt-4 rounded-md">
+      <div class="w-1/2 bg-midnight-50 rounded-tl-md rounded-bl-md h-full flex justify-center items-center">
         <svg
-          class="md:hidden block slidedown cursor-pointer"
+          class="text-midnight-700 md:w-full w-1/2"
           xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-          version="1.1"
-          x="0px"
-          y="0px"
-          width="50px"
-          height="50px"
-          viewBox="0 0 960 560"
-          enable-background="new 0 0 960 560"
-          xml:space="preserve"
-          @click="goto('data-container')"
+          width="150"
+          height="83"
+          viewBox="0 0 109 83"
+          fill="none"
         >
-          <g id="Rounded_Rectangle_33_copy_4_1_">
-            <path class="text-midnight-400" fill="currentColor" d="M480,344.181L268.869,131.889c-15.756-15.859-41.3-15.859-57.054,0c-15.754,15.857-15.754,41.57,0,57.431l237.632,238.937   c8.395,8.451,19.562,12.254,30.553,11.698c10.993,0.556,22.159-3.247,30.555-11.698l237.631-238.937   c15.756-15.86,15.756-41.571,0-57.431s-41.299-15.859-57.051,0L480,344.181z" />
-          </g>
+          <path d="M54.5 0L81.1981 39.9096L90.9238 53.9594H81.1981L109 83V53.9594L81.1981 39.9096H65.7513L54.5 26.4176L42.1045 39.9096L27.25 40.1885L0 53.9594V83L27.25 53.9594H16.932L27.25 40.1885L54.5 0Z" fill="currentColor" />
         </svg>
       </div>
-      <span class="md:hidden block select-none absolute top-0 w-min right-6 text-right text-midnight-400">/\\ \\\\ · / /// - // \ /\\ \\\\ · / /// - // \ /\\ \\\\ · / /// - // \ /\ /\\ \\\\ · / /// - // \ /\\ \\\\ · / /// - // \ /\\ \\\\</span>
-    </div>
-    <div class="flex p-12 flex-col w-full overflow-x-hidden">
-      <div ref="data-container" class="__axhl-container">
-        <h1 class="md:text-4xl text-3xl font-bold text-midnight-900">
-          hello.
+      <div class="w-1/2 h-full border-l border-midnight-500 p-4 md:p-6">
+        <span class="uppercase text-xs font-thin text-midnight-700">Aexhell</span>
+        <h1 class="font-bold text-xl md:mt-2 text-midnight-900">
+          Welcome!
         </h1>
-        <p class="mb-6 text-midnight-1000 text-base md:text-md">
-          The name's Aexhell. I am a 16-yo front-end developer focused on web engineering.
-          My main tools are Visual Studio Code and Figma. I started programming around 2015, GML being my first language. On 2018, I started learning HTML, CSS, and JS. On 2019-2020, I started learning the Vue.js framework, with Nuxt on 2021. On 2022, I started learning Svelte framework.
-        </p>
-      </div>
-      <div class="__axhl-container">
-        <h1 class="md:text-4xl text-3xl font-bold text-midnight-900">
-          contact.
-        </h1>
-        <p class="mb-6 text-midnight-1000 text-base md:text-md">
-          You can use my <a href="mailto:aexhell@gmail.com">email</a> to contact me.
-          If you have a project request, have in mind that:
-          <ul class="ml-8 list-disc my-2">
-            <li>I do not accept projects using React/Angular/PHP. I work with Vue.js/Nuxt.</li>
-            <li>I do not accept projects without payment. We can discuss the price of the project.</li>
-            <li>I am not entirely back-end. I have more experience with front-end.</li>
-            <li>I prefer telecommuting.</li>
-            <li>I accept payments using my currency (€ &lt;euro&gt;).</li>
-          </ul>
-          If you agree with all of these statements, contact me using the email from above.
+        <p class="font-normal relative mt-1 h-full sm:text-md lg:text-md md:text-base text-xs text-midnight-800">
+          The name's Aexhell. I am a web developer and graphic designer.
+          My main language is TypeScript and my main frameworks are Vue, React Native and Nuxt.
+          I work as a part-time job being a front-end developer.
         </p>
       </div>
     </div>
+    <h1 class="font-bold text-xl underline mt-4 text-midnight-900">
+      Projects
+    </h1>
+    <p class="text-sm mt-2 text-midnight-800">
+      Nothing at the moment...
+    </p>
+    <!--
+    <div class="flex flex-row w-full h-1/2 gap-4 mt-4">
+      <div v-for="proj in projects" :key="proj.code" :class="`relative bg-midnight-50 border border-midnight-200 __axhl-project-${proj.code} rounded-md p-4 md:p-12 w-full h-full flex flex-col md:justify-start justify-center`">
+        <img class="top-0 left-0" src="https://cdn.discordapp.com/attachments/496044498401361920/907371446379114557/unknown.png"></img>
+        <div class="p-4">
+          <h1 class="font-bold md:text-lg text-sm text-midnight-900" v-text="proj.title" />
+          <p class="font-normal relative mt-1 h-full sm:text-md lg:text-md md:text-base text-xs text-midnight-800" v-text="proj.description" />
+        </div>
+      </div>
+    </div>
+    -->
   </div>
 </template>
 
 <script>
 export default {
   name: 'IndexPage',
+  data () {
+    return {
+      projects: [
+        {
+          code: 'moon',
+          title: 'Moon',
+          description: 'Moon IRC.',
+          date: '08/22/2022'
+        },
+        {
+          code: 'sapphire',
+          title: 'Sapphire',
+          description: 'Moon IRC.',
+          date: '08/22/2022'
+        },
+        {
+          code: 'sapphire',
+          title: 'Sapphire',
+          description: 'Moon IRC.',
+          date: '08/22/2022'
+        }
+      ]
+    }
+  },
   methods: {
     goto (refName) {
       const elem = this.$refs[refName]

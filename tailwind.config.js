@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false,
   theme: {
     extend: {
+      screens: {
+        xs: '500px'
+      },
       spacing: {
         100: '32rem'
       },
@@ -11,12 +14,13 @@ module.exports = {
         transparent: 'transparent',
         currentColor: 'currentColor',
         midnight: {
-          100: '#241F2C',
-          150: '#272130',
-          200: '#2d2638',
+          50: '#25202D',
+          100: '#221E27',
+          150: '#2C2634',
+          200: '#3A3244',
           300: '#433B50',
           400: '#635676',
-          500: '#8875A5',
+          500: '#8A7B9E',
           600: '#B9A0DF',
           700: '#C2AFDF',
           800: '#CCBEE1',
@@ -25,7 +29,7 @@ module.exports = {
         }
       },
       fontFamily: {
-        sans: ['"Inter"', 'Public Sans', 'sans-serif']
+        sans: ['Inter', '"Public Sans"', 'sans-serif']
       }
     }
   },

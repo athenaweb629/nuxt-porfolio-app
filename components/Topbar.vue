@@ -1,19 +1,5 @@
 <template>
-  <div id="axhl__topbar" class="fixed border-b border-midnight-200 bg-midnight-100 flex flex-row justify-between p-12 w-full">
-    <div class="axhl__topbar-left">
-      <nuxt-link to="/" class="text-midnight-600">
-        aexhell.
-      </nuxt-link>
-    </div>
-    <div class="axhl__topbar-right flex flex-row">
-      <nuxt-link to="/about" class="ml-6">
-        about.
-      </nuxt-link>
-      <nuxt-link to="/works" class="ml-6">
-        works.
-      </nuxt-link>
-    </div>
-  </div>
+  <div id="axhl__topbar" class="z-[-1] absolute w-full h-48 bg-midnight-100 flex flex-row justify-start items-center p-12 w-full" />
 </template>
 <script lang="ts">
 export default {

@@ -11,7 +11,7 @@ a {
 }
 
 a:hover {
-   @apply text-midnight-600 underline
+   @apply text-midnight-1000 underline
 }
 
 #__title-stroke {
@@ -42,6 +42,10 @@ a:hover {
 
 .slidedown:hover {
    @apply text-midnight-600
+}
+
+.z-\[-1\] {
+   z-index: -1
 }
 
 @keyframes fade {

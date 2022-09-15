@@ -1,7 +1,7 @@
 <template>
   <div id="axhl__mount">
+    <Topbar />
     <Nuxt />
-    <Footer />
   </div>
 </template>
 
