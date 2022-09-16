@@ -24,8 +24,8 @@
           <path d="M54.5 0L81.1981 39.9096L90.9238 53.9594H81.1981L109 83V53.9594L81.1981 39.9096H65.7513L54.5 26.4176L42.1045 39.9096L27.25 40.1885L0 53.9594V83L27.25 53.9594H16.932L27.25 40.1885L54.5 0Z" fill="currentColor" />
         </svg>
       </div>
-      <div class="w-1/2 md:overflow-y-hidden overflow-y-scroll h-full border-l md:border-l-2 border-midnight-500 p-4 md:p-6">
-        <span class="uppercase text-xs font-thin text-midnight-700">Aexhell</span>
+      <div class="w-1/2 md:overflow-y-hidden overflow-y-scroll h-full border-l border-midnight-400 p-4 md:p-6">
+        <span class="uppercase text-xs font-light text-midnight-700">Aexhell</span>
         <h1 class="font-bold text-xl md:mt-2 text-midnight-900">
           Welcome!
         </h1>
@@ -39,10 +39,7 @@
     <h1 class="font-bold text-xl mt-4 text-midnight-900">
       Projects
     </h1>
-    <p class="text-sm mb-4 text-midnight-800">
-      Nothing at the moment...
-    </p>
-    <div class="flex flex-col md:flex-row w-full items-stretch gap-4 md:pb-auto pb-16">
+    <div class="flex flex-col md:flex-row w-full items-stretch gap-4 mt-4 md:pb-auto pb-16">
       <div v-for="proj in projects" :key="proj.code" :class="`relative bg-midnight-50 border border-midnight-200 __axhl-project-${proj.code} rounded-md w-full h-full flex flex-col md:justify-start justify-center`">
         <div :style="`background: linear-gradient(to right, rgb(30 30 40 / 30%), rgb(37 32 45)), url(${proj.image})`" class="left-0 bg-left bg-center rounded-tl-md h-48 rounded-tr-md w-full relative" />
         <div class="p-4 md:p-8 border-t border-midnight-200">
