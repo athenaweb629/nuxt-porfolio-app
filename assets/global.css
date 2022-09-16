@@ -14,6 +14,10 @@ a:hover {
    @apply text-midnight-1000 underline
 }
 
+a.nuxt-link-exact-active {
+   @apply text-midnight-800 !important
+}
+
 #__title-stroke {
    @apply text-midnight-150 select-none;
    -webkit-font-smoothing: antialiased;
