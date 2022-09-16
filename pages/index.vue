@@ -11,7 +11,7 @@
         Contact
       </nuxt-link>
     </div>
-    <div class="flex flex-row justify-start items-start w-full xs:h-2/6 sm:h-2/6 h-2/6 bg-midnight-200 mt-4 rounded-md">
+    <div class="flex flex-row justify-start items-start w-full xs:h-full sm:h-2/6 h-2/6 bg-midnight-200 mt-4 rounded-md">
       <div class="w-1/2 bg-midnight-50 rounded-tl-md rounded-bl-md h-full flex justify-center items-center">
         <svg
           class="text-midnight-700 md:w-full w-1/2"
@@ -29,7 +29,7 @@
         <h1 class="font-bold text-xl md:mt-2 text-midnight-900">
           Welcome!
         </h1>
-        <p class="font-normal relative mt-1 sm:text-md lg:text-md md:text-base text-xs text-midnight-800">
+        <p class="font-normal relative mt-1 xl:text-lg sm:text-md lg:text-md md:text-base text-xs text-midnight-800">
           The name's Aexhell. I am a web developer and graphic designer.
           My main language is TypeScript and my main frameworks are Vue, React Native and Nuxt.
           I work as a part-time job being a front-end developer.
