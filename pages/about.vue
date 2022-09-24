@@ -19,7 +19,7 @@
         About
       </h1>
       <p class="text-sm mb-4 text-midnight-800">
-        My name is Aexhell. I am a 16 year old Spanish software engineer working as a front-end developer.
+        My name is Aexhell. I am a 17-yo Spanish software engineer working as a front-end developer.
         Computer science always fascinated me as a kid, and in 2015 I was already experimenting with GameMaker (GML) for game development,
         at the age of 9. At the age of 13, I joined Wikia, where I officially created my first account.
         At Wikia I started playing around with HTML, CSS and JS. When I was 15 years old I started experimenting with the Vue framework and Nuxt.js.
