@@ -1,17 +1,20 @@
 <template>
   <div id="axhl__home" class="w-screen h-screen px-12 md:px-24 py-12 z-0">
-    <div class="flex flex-row w-full items-center md:justify-start justify-center">
-      <nuxt-link to="/" class="uppercase text-sm font-light text-midnight-500 mr-4">
-        Home
-      </nuxt-link>
-      <nuxt-link to="/about" class="uppercase text-sm font-light text-midnight-500 mr-4">
-        About
-      </nuxt-link>
-      <nuxt-link to="/contact" class="uppercase text-sm font-light text-midnight-500">
-        Contact
-      </nuxt-link>
+    <div class="flex flex-row w-full items-center justify-between">
+      <div>
+        <nuxt-link to="/" class="uppercase text-sm font-light text-midnight-500 mr-4">
+          Home
+        </nuxt-link>
+        <nuxt-link to="/about" class="uppercase text-sm font-light text-midnight-500 mr-4">
+          About
+        </nuxt-link>
+        <nuxt-link to="/contact" class="uppercase text-sm font-light text-midnight-500">
+          Contact
+        </nuxt-link>
+      </div>
+      <Themer class="text-midnight-500 hover:text-midnight-800 cursor-pointer" />
     </div>
-    <div class="flex flex-row justify-start items-start w-full xs:h-full sm:h-2/6 h-2/6 bg-midnight-200 mt-4 rounded-md">
+    <div class="flex flex-row justify-start items-start w-full xs:h-4/6 sm:h-2/6 h-2/6 bg-midnight-200 mt-4 rounded-md">
       <div class="w-1/2 bg-midnight-50 rounded-tl-md rounded-bl-md h-full flex justify-center items-center">
         <svg
           class="text-midnight-700 md:w-full w-1/2"
