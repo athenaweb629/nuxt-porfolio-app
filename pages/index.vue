@@ -27,7 +27,7 @@
           <path d="M54.5 0L81.1981 39.9096L90.9238 53.9594H81.1981L109 83V53.9594L81.1981 39.9096H65.7513L54.5 26.4176L42.1045 39.9096L27.25 40.1885L0 53.9594V83L27.25 53.9594H16.932L27.25 40.1885L54.5 0Z" fill="currentColor" />
         </svg>
       </div>
-      <div class="w-1/2 md:overflow-y-hidden overflow-y-scroll h-full border-l border-midnight-400 p-4 md:p-6">
+      <div class="w-1/2 overflow-y-auto h-full border-l border-midnight-400 p-4 md:p-6">
         <span class="uppercase text-xs font-light text-midnight-700">Aexhell</span>
         <h1 class="font-bold text-xl md:mt-2 text-midnight-900">
           Welcome!
