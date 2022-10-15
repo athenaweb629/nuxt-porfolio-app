@@ -14,7 +14,7 @@
       </div>
       <Themer class="text-midnight-500 hover:text-midnight-800 cursor-pointer" />
     </div>
-    <div class="flex flex-row justify-start items-start w-full xs:h-4/6 sm:h-2/6 h-2/6 bg-midnight-200 mt-4 rounded-md">
+    <div class="flex flex-row justify-start relative items-start w-full xs:h-4/6 sm:h-2/6 h-2/6 bg-midnight-200 mt-4 rounded-md">
       <div class="w-1/2 bg-midnight-50 rounded-tl-md rounded-bl-md h-full flex justify-center items-center">
         <svg
           class="text-midnight-700 md:w-1/4 w-4/6"
@@ -57,7 +57,7 @@
     <h1 class="font-bold text-xl mt-4 text-midnight-900">
       Projects
     </h1>
-    <div class="flex flex-col md:flex-row w-full items-stretch gap-4 mt-4 md:pb-auto pb-16">
+    <div :class="`flex flex-col md:flex-row w-full items-stretch gap-4 mt-4 md:pb-auto pb-16 ${getInit ? '' : 'animate-slide'}`">
       <div v-for="proj in projects" :key="proj.code" :class="`relative bg-midnight-50 border transform duration-200 transition-colors hover:border-midnight-500 border-midnight-200 __axhl-project-${proj.code} rounded-md w-full h-full flex flex-col md:justify-start justify-center`">
         <a v-if="proj.url" :href="proj.url">
           <div :style="`background: linear-gradient(to right, rgb(37 32 45 / 65%), rgb(37 32 45)), url(${proj.image})`" class="left-0 bg-left bg-center bg-cover rounded-tl-md h-48 rounded-tr-md w-full relative" />
@@ -102,6 +102,14 @@ export default {
         }
       ]
     }
+  },
+  computed: {
+    getInit () {
+      return this.$store.state.init
+    }
+  },
+  mounted () {
+    if (this.$store.state.init) { return false } else { this.$store.commit('setInit') }
   }
 }
 </script>

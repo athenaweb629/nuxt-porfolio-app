@@ -1,5 +1,5 @@
 <template>
-  <div id="axhl__home" class="w-screen h-screen px-12 md:px-24 py-12 z-0">
+  <div id="axhl__contact" class="w-screen h-full px-12 md:px-24 py-12 z-0">
     <div class="flex flex-row w-full items-center justify-between">
       <div>
         <nuxt-link to="/" class="uppercase text-sm font-light text-midnight-500 mr-4">

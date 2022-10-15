@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false,
   theme: {
     extend: {
+      animation: {
+        slide: 'slide 0.8s cubic-bezier(0.4, 0, 0.2, 1) normal'
+      },
       screens: {
         xs: { raw: '(max-height: 500px)' }
       },
