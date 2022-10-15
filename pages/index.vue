@@ -76,11 +76,11 @@ export default {
           image: 'https://cdn.discordapp.com/attachments/496044498401361920/907371446379114557/unknown.png'
         },
         {
-          code: 'sapphire',
-          title: 'Sapphire',
+          code: 'mylium',
+          title: 'Mylium',
           description: 'Social media made with Nuxt.',
-          date: '08/22/2022',
-          image: 'https://cdn.discordapp.com/attachments/904189326974386177/1020163621726199808/unknown.png'
+          date: '09/25/2022',
+          image: 'https://cdn.discordapp.com/attachments/904189326974386177/1030858008114249728/unknown.png'
         }
       ]
     }

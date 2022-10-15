@@ -19,11 +19,11 @@
         Contact
       </h1>
       <p class="text-sm mb-4 text-midnight-800">
-        I use <a class="text-midnight-600 underline" href="mailto:aexhell@gmail.com">email</a> and <span class="cursor-help border-dotted border-b border-midnight-800" title="aexhell#8888">Discord</span> as main contact form.
+        I use <a class="text-midnight-600 underline" href="mailto:aexhell@gmail.com">email</a> and <span class="cursor-help border-dotted md:border-b border-midnight-800" title="aexhell#8888">Discord</span> <span class="md:hidden">(aexhell#8888)</span> as main contact form.
         If you need to contact me, please use some guidelines:
         <ul class="ml-8 mt-4 list-disc">
           <li>I <b>do not</b> accept jobs that require knowledge of React/Svelte/Angular. I may consider jobs that require React Native as I am starting to use it.</li>
-          <li><b>Payments</b> are made with my <b>currency</b> <span class="cursor-help border-dotted border-b border-midnight-800" title="Euro">(€)</span>.</li>
+          <li><b>Payments</b> are made with my <b>currency</b> <span class="cursor-help border-dotted md:border-b border-midnight-800" title="Euro">(€)</span>.</li>
           <li>I <b>do not</b> work as a full-time developer, I already have a half-time job.</li>
           <li>My main languages are <b>Español</b> and <b>English</b>. I prefer text over voice chat, but I have little trouble if voice chatting needed.</li>
           <li>I prefer <b>small teams</b> - but again - I have little trouble working with large teams.</li>
