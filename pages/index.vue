@@ -16,7 +16,14 @@
     </div>
     <div class="flex flex-row justify-start items-start w-full xs:h-4/6 sm:h-2/6 h-2/6 bg-midnight-200 mt-4 rounded-md">
       <div class="w-1/2 bg-midnight-50 rounded-tl-md rounded-bl-md h-full flex justify-center items-center">
-        <svg class="text-midnight-700 md:w-1/4 w-4/6" xmlns="http://www.w3.org/2000/svg" width="215" height="262" viewBox="0 0 215 262" fill="none">
+        <svg
+          class="text-midnight-700 md:w-1/4 w-4/6"
+          xmlns="http://www.w3.org/2000/svg"
+          width="215"
+          height="262"
+          viewBox="0 0 215 262"
+          fill="none"
+        >
           <mask
             id="path-1-outside-1_543_23"
             maskUnits="userSpaceOnUse"
@@ -51,11 +58,21 @@
       Projects
     </h1>
     <div class="flex flex-col md:flex-row w-full items-stretch gap-4 mt-4 md:pb-auto pb-16">
-      <div v-for="proj in projects" :key="proj.code" :class="`relative bg-midnight-50 border border-midnight-200 __axhl-project-${proj.code} rounded-md w-full h-full flex flex-col md:justify-start justify-center`">
-        <div :style="`background: linear-gradient(to right, rgb(30 30 40 / 30%), rgb(37 32 45)), url(${proj.image})`" class="left-0 bg-left bg-center rounded-tl-md h-48 rounded-tr-md w-full relative" />
-        <div class="p-4 md:p-8 border-t border-midnight-200">
-          <h1 class="font-bold md:text-lg text-sm text-midnight-900" v-text="proj.title" />
-          <p class="font-normal relative mt-1 h-full sm:text-md lg:text-md md:text-base text-xs text-midnight-800" v-text="proj.description" />
+      <div v-for="proj in projects" :key="proj.code" :class="`relative bg-midnight-50 border transform duration-200 transition-colors hover:border-midnight-500 border-midnight-200 __axhl-project-${proj.code} rounded-md w-full h-full flex flex-col md:justify-start justify-center`">
+        <a v-if="proj.url" :href="proj.url">
+          <div :style="`background: linear-gradient(to right, rgb(37 32 45 / 65%), rgb(37 32 45)), url(${proj.image})`" class="left-0 bg-left bg-center bg-cover rounded-tl-md h-48 rounded-tr-md w-full relative" />
+          <div class="p-4 md:p-8 border-t border-midnight-200">
+            <h1 class="font-bold md:text-lg text-sm text-midnight-900" v-text="proj.title" />
+            <p class="font-normal relative mt-1 h-full sm:text-md lg:text-md md:text-base text-xs text-midnight-800" v-text="proj.description" />
+          </div>
+        </a>
+        <div v-else>
+          <div :style="`background: linear-gradient(to right, rgb(37 32 45 / 65%), rgb(37 32 45)), url(${proj.image})`" class="left-0 bg-left bg-center bg-cover rounded-tl-md h-48 rounded-tr-md w-full relative" />
+          <div class="p-4 md:p-8 border-t border-midnight-200">
+            <h1 v-if="!proj.url" class="font-bold md:text-lg text-sm text-midnight-900" v-text="proj.title" />
+            <a v-else :href="proj.url" class="font-bold md:text-lg text-sm text-midnight-900" v-text="proj.title" />
+            <p class="font-normal relative mt-1 h-full sm:text-md lg:text-md md:text-base text-xs text-midnight-800" v-text="proj.description" />
+          </div>
         </div>
       </div>
     </div>
@@ -80,6 +97,7 @@ export default {
           title: 'Mylium',
           description: 'Social media made with Nuxt.',
           date: '09/25/2022',
+          url: 'https://mylium.app/',
           image: 'https://cdn.discordapp.com/attachments/904189326974386177/1030858008114249728/unknown.png'
         }
       ]

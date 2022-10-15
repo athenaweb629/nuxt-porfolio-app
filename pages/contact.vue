@@ -14,7 +14,7 @@
       </div>
       <Themer class="text-midnight-500 hover:text-midnight-800 cursor-pointer" />
     </div>
-    <div class="flex flex-col justify-start items-start w-full p-8 h-auto bg-midnight-200 mt-4 rounded-md">
+    <div class="flex flex-col justify-start items-start w-full p-8 h-auto bg-midnight-200 my-4 rounded-md">
       <h1 class="font-bold text-xl my-4 text-midnight-900">
         Contact
       </h1>
